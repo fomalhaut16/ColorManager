@@ -14,6 +14,7 @@ import { MANAGED_KEYS, type ManagedKey, type Payload } from './settingsKeys';
 import { SettingsWriter, type ApplyResult, type WriterUi } from './settingsWriter';
 import {
   backupDir,
+  backupFolderForOS,
   backupStore,
   configIO,
   offerSyncIgnore,
@@ -46,6 +47,8 @@ export interface TestApi {
   setUi(overrides: Partial<WriterUi>): void;
   /** Same as the Apply Now command's unblocking. */
   clearBlock(): void;
+  /** The URI the Open Backups Folder command hands to the OS. */
+  backupFolderForOS(): vscode.Uri;
 }
 
 export function activate(context: vscode.ExtensionContext): TestApi | undefined {
@@ -209,7 +212,7 @@ export function activate(context: vscode.ExtensionContext): TestApi | undefined 
     vscode.commands.registerCommand('colorManager.openBackups', async () => {
       const dir = backupDir(context);
       await vscode.workspace.fs.createDirectory(dir);
-      await vscode.env.openExternal(dir);
+      await vscode.env.openExternal(backupFolderForOS(context));
     }),
     vscode.commands.registerCommand('colorManager.dev.dumpRegistry', async (out?: vscode.Uri) => {
       if (context.extensionMode === vscode.ExtensionMode.Production) return;
@@ -236,6 +239,7 @@ export function activate(context: vscode.ExtensionContext): TestApi | undefined 
       remove: () => writer.remove(),
       setUi: (overrides) => Object.assign(ui, overrides),
       clearBlock: () => writer.clearBlock(),
+      backupFolderForOS: () => backupFolderForOS(context),
     };
   }
   scheduler.trigger(Math.floor(Math.random() * 1000));

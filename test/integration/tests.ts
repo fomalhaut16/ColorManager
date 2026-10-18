@@ -1,5 +1,5 @@
 import * as assert from 'node:assert/strict';
-import { appendFileSync, readFileSync, writeFileSync } from 'node:fs';
+import { appendFileSync, existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { applyEdits, modify, parse } from 'jsonc-parser';
 import * as vscode from 'vscode';
 import type { TestApi } from '../../src/extension';
@@ -80,6 +80,13 @@ test('1. leaves everything outside the managed keys byte-identical', async (api)
 test('8. backs up the original bytes before the first write', async (api) => {
   await api.apply(120);
   assert.equal(readFileSync(ORIGINAL_BACKUP, 'utf8'), FIXTURE);
+});
+
+test('9. hands the OS a file URI for the backup folder that exists', async (api) => {
+  const uri = api.backupFolderForOS();
+  assert.equal(uri.scheme, 'file');
+  assert.ok(existsSync(uri.fsPath), uri.fsPath);
+  assert.ok(existsSync(`${uri.fsPath}/settings-original.json`));
 });
 
 test('2. keeps other theme blocks', async (api) => {
