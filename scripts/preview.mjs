@@ -22,6 +22,8 @@ await esbuild.build({
   },
   bundle: true,
   platform: 'node',
+  // jsonc-parser's UMD build uses dynamic requires; take its ESM build.
+  mainFields: ['module', 'main'],
   format: 'cjs',
   outfile: bundle,
   logLevel: 'warning',

@@ -51,6 +51,8 @@ await esbuild.build({
   external: ['vscode'],
   format: 'cjs',
   platform: 'node',
+  // jsonc-parser's UMD build uses dynamic requires; take its ESM build.
+  mainFields: ['module', 'main'],
   target: 'node20',
   logLevel: 'warning',
 });
