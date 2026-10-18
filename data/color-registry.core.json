@@ -1,0 +1,4976 @@
+{
+  "vscodeVersion": "1.141.0",
+  "generatedAt": "2026-10-18T05:52:18.232Z",
+  "colors": {
+    "actionBar.toggledBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "activeSessionView.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "activeSessionView.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "activityBar.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "activityBar.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "activityBar.activeFocusBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "activityBar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2c2c2c",
+      "source": "core"
+    },
+    "activityBar.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "activityBar.dropBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "activityBar.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "activityBar.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff66",
+      "source": "core"
+    },
+    "activityBarBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "activityBarBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "activityBarTop.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "activityBarTop.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "activityBarTop.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "activityBarTop.dropBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "activityBarTop.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "activityBarTop.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242bf",
+      "source": "core"
+    },
+    "activityErrorBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "activityErrorBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "activityWarningBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b27c00",
+      "source": "core"
+    },
+    "activityWarningBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "agentFeedbackEditorWidget.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e9e9e9",
+      "source": "core"
+    },
+    "agentFeedbackEditorWidget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616159",
+      "source": "core"
+    },
+    "agentFeedbackInputWidget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "agentSessionReadIndicator.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "agentSessionSelectedBadge.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff4d",
+      "source": "core"
+    },
+    "agentSessionSelectedUnfocusedBadge.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6161614d",
+      "source": "core"
+    },
+    "agentStatusIndicator.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000000d",
+      "source": "core"
+    },
+    "agents.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "agentsBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "agentsBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "agentsBottomPanel.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d8d8d8",
+      "source": "core"
+    },
+    "agentsCard.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d8d8d8",
+      "source": "core"
+    },
+    "agentsChatInput.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "agentsChatInput.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "agentsChatInput.focusBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "agentsChatInput.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "agentsChatInput.placeholderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#767676",
+      "source": "core"
+    },
+    "agentsDetail.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "agentsGradient.tintColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "agentsNewSessionButton.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "agentsNewSessionButton.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "agentsNewSessionButton.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "agentsNewSessionButton.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b8b8b850",
+      "source": "core"
+    },
+    "agentsPanel.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "agentsPanel.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "agentsPanel.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "agentsUnreadBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "agentsUnreadBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "agentsUpdateButton.downloadedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007accb3",
+      "source": "core"
+    },
+    "agentsUpdateButton.downloadingBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc66",
+      "source": "core"
+    },
+    "agentsVoice.speakingBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#8250df14",
+      "source": "core"
+    },
+    "agentsVoice.speakingForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#8250df",
+      "source": "core"
+    },
+    "badge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c4",
+      "source": "core"
+    },
+    "badge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "banner.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#004386",
+      "source": "core"
+    },
+    "banner.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "banner.iconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "breadcrumb.activeSelectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#4e4e4e",
+      "source": "core"
+    },
+    "breadcrumb.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "breadcrumb.focusForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#4e4e4e",
+      "source": "core"
+    },
+    "breadcrumb.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161cc",
+      "source": "core"
+    },
+    "breadcrumbPicker.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "browser.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "button.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "button.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "button.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "button.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0062a3",
+      "source": "core"
+    },
+    "button.secondaryBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "button.secondaryBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616126",
+      "source": "core"
+    },
+    "button.secondaryForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "button.secondaryHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "button.separator": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff66",
+      "source": "core"
+    },
+    "chart.axis": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000099",
+      "source": "core"
+    },
+    "chart.guide": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000033",
+      "source": "core"
+    },
+    "chart.line": {
+      "needsTransparency": false,
+      "vsLightDefault": "#236b8e",
+      "source": "core"
+    },
+    "charts.blue": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "charts.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "charts.green": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "charts.lines": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616180",
+      "source": "core"
+    },
+    "charts.orange": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "charts.purple": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "charts.red": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "charts.yellow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "chat.avatarBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2f2f2",
+      "source": "core"
+    },
+    "chat.avatarForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "chat.checkpointSeparator": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a9a9a9",
+      "source": "core"
+    },
+    "chat.dictationActiveMicGlow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "chat.editedFileForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#895503",
+      "source": "core"
+    },
+    "chat.findMatchBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ea5c00aa",
+      "source": "core"
+    },
+    "chat.findMatchHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "chat.inputWorkingBorderColor1": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "chat.inputWorkingBorderColor2": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "chat.inputWorkingBorderColor3": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "chat.linesAddedForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#107c10",
+      "source": "core"
+    },
+    "chat.linesRemovedForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#bc2f32",
+      "source": "core"
+    },
+    "chat.mcpCompatibilityWarningForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#8a6200",
+      "source": "core"
+    },
+    "chat.requestBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff9e",
+      "source": "core"
+    },
+    "chat.requestBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001a",
+      "source": "core"
+    },
+    "chat.requestBubbleBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#add6ff4d",
+      "source": "core"
+    },
+    "chat.requestBubbleHoverBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#add6ff99",
+      "source": "core"
+    },
+    "chat.requestCodeBorder": {
+      "needsTransparency": true,
+      "vsLightDefault": "#0e639c40",
+      "source": "core"
+    },
+    "chat.sessionStateIndicator.inProgressBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "chat.sessionStateIndicator.needsInputBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a1260d",
+      "source": "core"
+    },
+    "chat.sessionStateIndicator.unvisitedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "chat.slashCommandBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#adceff7a",
+      "source": "core"
+    },
+    "chat.slashCommandForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#26569e",
+      "source": "core"
+    },
+    "chat.statusBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616114",
+      "source": "core"
+    },
+    "chat.thinkingShimmer": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "chat.voiceGlowBaseColor": {
+      "needsTransparency": true,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "chat.voiceListeningGlow": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "chat.voiceSpeakingGlow": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "chat.workingProgressInsidersIconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#24bfa5",
+      "source": "core"
+    },
+    "chat.workingProgressStableIconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "checkbox.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "checkbox.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "checkbox.disabled.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cacaca",
+      "source": "core"
+    },
+    "checkbox.disabled.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#959595",
+      "source": "core"
+    },
+    "checkbox.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "checkbox.selectBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "checkbox.selectBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "commandCenter.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000014",
+      "source": "core"
+    },
+    "commandCenter.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#3333334d",
+      "source": "core"
+    },
+    "commandCenter.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "commandCenter.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000000d",
+      "source": "core"
+    },
+    "commandCenter.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33333333",
+      "source": "core"
+    },
+    "commandCenter.debuggingBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#cc663342",
+      "source": "core"
+    },
+    "commandCenter.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "commandCenter.inactiveBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33333326",
+      "source": "core"
+    },
+    "commandCenter.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33333399",
+      "source": "core"
+    },
+    "commentsView.resolvedIcon": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616180",
+      "source": "core"
+    },
+    "commentsView.unresolvedIcon": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "contrastActiveBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "contrastBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "debugConsole.errorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a1260d",
+      "source": "core"
+    },
+    "debugConsole.infoForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "debugConsole.sourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "debugConsole.warningForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "debugConsoleInputIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "debugExceptionWidget.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f1dfde",
+      "source": "core"
+    },
+    "debugExceptionWidget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a31515",
+      "source": "core"
+    },
+    "debugIcon.breakpointCurrentStackframeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#be8700",
+      "source": "core"
+    },
+    "debugIcon.breakpointDisabledForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#848484",
+      "source": "core"
+    },
+    "debugIcon.breakpointForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "debugIcon.breakpointStackframeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#89d185",
+      "source": "core"
+    },
+    "debugIcon.breakpointUnverifiedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#848484",
+      "source": "core"
+    },
+    "debugIcon.continueForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "debugIcon.disconnectForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a1260d",
+      "source": "core"
+    },
+    "debugIcon.pauseForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "debugIcon.restartForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "debugIcon.startForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "debugIcon.stepBackForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "debugIcon.stepIntoForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "debugIcon.stepOutForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "debugIcon.stepOverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "debugIcon.stopForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a1260d",
+      "source": "core"
+    },
+    "debugTokenExpression.boolean": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000ff",
+      "source": "core"
+    },
+    "debugTokenExpression.error": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "debugTokenExpression.name": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9b46b0",
+      "source": "core"
+    },
+    "debugTokenExpression.number": {
+      "needsTransparency": false,
+      "vsLightDefault": "#098658",
+      "source": "core"
+    },
+    "debugTokenExpression.string": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a31515",
+      "source": "core"
+    },
+    "debugTokenExpression.type": {
+      "needsTransparency": false,
+      "vsLightDefault": "#4a90e2",
+      "source": "core"
+    },
+    "debugTokenExpression.value": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6c6c6ccc",
+      "source": "core"
+    },
+    "debugToolBar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "debugToolBar.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "debugView.exceptionLabelBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a31515",
+      "source": "core"
+    },
+    "debugView.exceptionLabelForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "debugView.stateLabelBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#88888844",
+      "source": "core"
+    },
+    "debugView.stateLabelForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "debugView.valueChangedHighlight": {
+      "needsTransparency": false,
+      "vsLightDefault": "#569cd6",
+      "source": "core"
+    },
+    "descriptionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#717171",
+      "source": "core"
+    },
+    "diffEditor.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "diffEditor.diagonalFill": {
+      "needsTransparency": false,
+      "vsLightDefault": "#22222233",
+      "source": "core"
+    },
+    "diffEditor.insertedLineBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#9bb95533",
+      "source": "core"
+    },
+    "diffEditor.insertedTextBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#9ccc2c40",
+      "source": "core"
+    },
+    "diffEditor.insertedTextBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "diffEditor.move.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#8b8b8b9c",
+      "source": "core"
+    },
+    "diffEditor.moveActive.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffa500",
+      "source": "core"
+    },
+    "diffEditor.removedLineBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ff000033",
+      "source": "core"
+    },
+    "diffEditor.removedTextBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ff000033",
+      "source": "core"
+    },
+    "diffEditor.removedTextBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "diffEditor.unchangedCodeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b8b8b829",
+      "source": "core"
+    },
+    "diffEditor.unchangedRegionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "diffEditor.unchangedRegionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "diffEditor.unchangedRegionShadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#737373bf",
+      "source": "core"
+    },
+    "diffEditorGutter.insertedLineBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "diffEditorGutter.removedLineBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "diffEditorOverview.insertedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "diffEditorOverview.removedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "disabledForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616180",
+      "source": "core"
+    },
+    "dropdown.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "dropdown.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cecece",
+      "source": "core"
+    },
+    "dropdown.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "dropdown.listBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editor.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editor.compositionBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editor.findMatchBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a8ac94",
+      "source": "core"
+    },
+    "editor.findMatchBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.findMatchForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.findMatchHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "editor.findMatchHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.findMatchHighlightForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.findRangeHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#b4b4b44d",
+      "source": "core"
+    },
+    "editor.findRangeHighlightBorder": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.focusedStackFrameHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cee7ce73",
+      "source": "core"
+    },
+    "editor.foldBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#add6ff4d",
+      "source": "core"
+    },
+    "editor.foldPlaceholderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#808080",
+      "source": "core"
+    },
+    "editor.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editor.hoverHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#add6ff26",
+      "source": "core"
+    },
+    "editor.inactiveLineHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.inactiveSelectionBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editor.inlineValuesBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffc80033",
+      "source": "core"
+    },
+    "editor.inlineValuesForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000080",
+      "source": "core"
+    },
+    "editor.lineHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.lineHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#eeeeee",
+      "source": "core"
+    },
+    "editor.linkedEditingBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff00004d",
+      "source": "core"
+    },
+    "editor.placeholder.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000077",
+      "source": "core"
+    },
+    "editor.rangeHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#fdff0033",
+      "source": "core"
+    },
+    "editor.rangeHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.selectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#add6ff",
+      "source": "core"
+    },
+    "editor.selectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.selectionHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editor.selectionHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.snippetFinalTabstopHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.snippetFinalTabstopHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0a326480",
+      "source": "core"
+    },
+    "editor.snippetTabstopHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0a326433",
+      "source": "core"
+    },
+    "editor.snippetTabstopHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.stackFrameHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffff6673",
+      "source": "core"
+    },
+    "editor.symbolHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "editor.symbolHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.wordHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#57575740",
+      "source": "core"
+    },
+    "editor.wordHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.wordHighlightStrongBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#0e639c40",
+      "source": "core"
+    },
+    "editor.wordHighlightStrongBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editor.wordHighlightTextBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#57575740",
+      "source": "core"
+    },
+    "editor.wordHighlightTextBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorActionList.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editorActionList.focusBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0060c0",
+      "source": "core"
+    },
+    "editorActionList.focusForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorActionList.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "editorActiveLineNumber.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorBracketHighlight.foreground1": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0431fa",
+      "source": "core"
+    },
+    "editorBracketHighlight.foreground2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#319331",
+      "source": "core"
+    },
+    "editorBracketHighlight.foreground3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#7b3814",
+      "source": "core"
+    },
+    "editorBracketHighlight.foreground4": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketHighlight.foreground5": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketHighlight.foreground6": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketHighlight.unexpectedBracket.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff1212cc",
+      "source": "core"
+    },
+    "editorBracketMatch.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0064001a",
+      "source": "core"
+    },
+    "editorBracketMatch.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b9b9b9",
+      "source": "core"
+    },
+    "editorBracketMatch.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorBracketPairGuide.activeBackground1": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.activeBackground2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.activeBackground3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.activeBackground4": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.activeBackground5": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.activeBackground6": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.background1": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.background2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.background3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.background4": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.background5": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorBracketPairGuide.background6": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorCodeLens.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#919191",
+      "source": "core"
+    },
+    "editorCommentsWidget.rangeActiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f11a",
+      "source": "core"
+    },
+    "editorCommentsWidget.rangeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f11a",
+      "source": "core"
+    },
+    "editorCommentsWidget.replyInputBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editorCommentsWidget.resolvedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616180",
+      "source": "core"
+    },
+    "editorCommentsWidget.unresolvedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "editorCursor.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorCursor.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorError.background": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorError.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorError.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "editorGhostText.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorGhostText.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorGhostText.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000077",
+      "source": "core"
+    },
+    "editorGroup.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e7e7e7",
+      "source": "core"
+    },
+    "editorGroup.dropBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2677cb2e",
+      "source": "core"
+    },
+    "editorGroup.dropIntoPromptBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editorGroup.dropIntoPromptBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorGroup.dropIntoPromptForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "editorGroup.emptyBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorGroup.focusedEmptyBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorGroupHeader.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorGroupHeader.connectedTabsBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editorGroupHeader.noTabsBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorGroupHeader.tabsBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editorGroupHeader.tabsBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editorGutter.addedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#48985d",
+      "source": "core"
+    },
+    "editorGutter.addedSecondaryBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a7d5b3",
+      "source": "core"
+    },
+    "editorGutter.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorGutter.commentDraftGlyphForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorGutter.commentGlyphForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorGutter.commentRangeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d5d8e9",
+      "source": "core"
+    },
+    "editorGutter.commentUnresolvedGlyphForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorGutter.deletedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "editorGutter.deletedSecondaryBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff3d2b",
+      "source": "core"
+    },
+    "editorGutter.foldingControlForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "editorGutter.itemBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d5d8e9",
+      "source": "core"
+    },
+    "editorGutter.itemGlyphForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorGutter.modifiedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2090d3",
+      "source": "core"
+    },
+    "editorGutter.modifiedSecondaryBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#aad8f2",
+      "source": "core"
+    },
+    "editorHint.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorHint.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6c6c6c",
+      "source": "core"
+    },
+    "editorHoverWidget.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editorHoverWidget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "editorHoverWidget.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "editorHoverWidget.highlightForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0066bf",
+      "source": "core"
+    },
+    "editorHoverWidget.statusBarBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e7e7e7",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground1": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground4": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground5": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.activeBackground6": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorIndentGuide.background1": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editorIndentGuide.background2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.background3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.background4": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.background5": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorIndentGuide.background6": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "editorInfo.background": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorInfo.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorInfo.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "editorInlayHint.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c41a",
+      "source": "core"
+    },
+    "editorInlayHint.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#969696",
+      "source": "core"
+    },
+    "editorInlayHint.parameterBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c41a",
+      "source": "core"
+    },
+    "editorInlayHint.parameterForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#969696",
+      "source": "core"
+    },
+    "editorInlayHint.typeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c41a",
+      "source": "core"
+    },
+    "editorInlayHint.typeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#969696",
+      "source": "core"
+    },
+    "editorLightBulb.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ddb100",
+      "source": "core"
+    },
+    "editorLightBulbAi.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ddb100",
+      "source": "core"
+    },
+    "editorLightBulbAutoFix.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "editorLineNumber.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0b216f",
+      "source": "core"
+    },
+    "editorLineNumber.dimmedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorLineNumber.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#237893",
+      "source": "core"
+    },
+    "editorLink.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000ff",
+      "source": "core"
+    },
+    "editorMarkerNavigation.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorMarkerNavigationError.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "editorMarkerNavigationError.headerBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e514001a",
+      "source": "core"
+    },
+    "editorMarkerNavigationInfo.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "editorMarkerNavigationInfo.headerBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d31a",
+      "source": "core"
+    },
+    "editorMarkerNavigationWarning.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "editorMarkerNavigationWarning.headerBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf88031a",
+      "source": "core"
+    },
+    "editorMinimap.inlineChatInserted": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c33",
+      "source": "core"
+    },
+    "editorMultiCursor.primary.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorMultiCursor.primary.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorMultiCursor.secondary.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorMultiCursor.secondary.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorOverviewRuler.addedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#48985d99",
+      "source": "core"
+    },
+    "editorOverviewRuler.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorOverviewRuler.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#7f7f7f4d",
+      "source": "core"
+    },
+    "editorOverviewRuler.bracketMatchForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a0a0a0",
+      "source": "core"
+    },
+    "editorOverviewRuler.commentDraftForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d5d8e9",
+      "source": "core"
+    },
+    "editorOverviewRuler.commentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d5d8e9",
+      "source": "core"
+    },
+    "editorOverviewRuler.commentUnresolvedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d5d8e9",
+      "source": "core"
+    },
+    "editorOverviewRuler.commonContentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#60606066",
+      "source": "core"
+    },
+    "editorOverviewRuler.currentContentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#40c8ae80",
+      "source": "core"
+    },
+    "editorOverviewRuler.deletedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e5140099",
+      "source": "core"
+    },
+    "editorOverviewRuler.errorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff1212b3",
+      "source": "core"
+    },
+    "editorOverviewRuler.findMatchForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#d186167e",
+      "source": "core"
+    },
+    "editorOverviewRuler.incomingContentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#40a6ff80",
+      "source": "core"
+    },
+    "editorOverviewRuler.infoForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "editorOverviewRuler.inlineChatInserted": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c33",
+      "source": "core"
+    },
+    "editorOverviewRuler.inlineChatRemoved": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff000029",
+      "source": "core"
+    },
+    "editorOverviewRuler.modifiedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2090d399",
+      "source": "core"
+    },
+    "editorOverviewRuler.rangeHighlightForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#007acc99",
+      "source": "core"
+    },
+    "editorOverviewRuler.selectionHighlightForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#a0a0a0cc",
+      "source": "core"
+    },
+    "editorOverviewRuler.warningForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "editorOverviewRuler.wordHighlightForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#a0a0a0cc",
+      "source": "core"
+    },
+    "editorOverviewRuler.wordHighlightStrongForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#c0a0c0cc",
+      "source": "core"
+    },
+    "editorOverviewRuler.wordHighlightTextForeground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#a0a0a0cc",
+      "source": "core"
+    },
+    "editorPane.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorRuler.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d3d3d3",
+      "source": "core"
+    },
+    "editorStickyScroll.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorStickyScroll.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorStickyScroll.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "editorStickyScrollGutter.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorStickyScrollHover.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f0f0f0",
+      "source": "core"
+    },
+    "editorSuggestWidget.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "editorSuggestWidget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "editorSuggestWidget.focusHighlightForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bbe7ff",
+      "source": "core"
+    },
+    "editorSuggestWidget.focusOutline": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorSuggestWidget.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "editorSuggestWidget.highlightForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0066bf",
+      "source": "core"
+    },
+    "editorSuggestWidget.selectedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0060c0",
+      "source": "core"
+    },
+    "editorSuggestWidget.selectedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorSuggestWidget.selectedIconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "editorSuggestWidgetStatus.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000080",
+      "source": "core"
+    },
+    "editorUnicodeHighlight.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorUnicodeHighlight.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "editorUnnecessaryCode.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorUnnecessaryCode.opacity": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000077",
+      "source": "core"
+    },
+    "editorWarning.background": {
+      "needsTransparency": true,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorWarning.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorWarning.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "editorWhitespace.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33333333",
+      "source": "core"
+    },
+    "editorWidget.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "editorWidget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "editorWidget.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "editorWidget.resizeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "editorWordWrapIndicator.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33333333",
+      "source": "core"
+    },
+    "errorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a1260d",
+      "source": "core"
+    },
+    "extensionBadge.remoteBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "extensionBadge.remoteForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "extensionButton.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "extensionButton.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616126",
+      "source": "core"
+    },
+    "extensionButton.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "extensionButton.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "extensionButton.prominentBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "extensionButton.prominentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "extensionButton.prominentHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0062a3",
+      "source": "core"
+    },
+    "extensionButton.separator": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff66",
+      "source": "core"
+    },
+    "extensionIcon.preReleaseForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#1d9271",
+      "source": "core"
+    },
+    "extensionIcon.privateForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000060",
+      "source": "core"
+    },
+    "extensionIcon.sponsorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b51e78",
+      "source": "core"
+    },
+    "extensionIcon.starForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#df6100",
+      "source": "core"
+    },
+    "extensionIcon.verifiedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#006ab1",
+      "source": "core"
+    },
+    "focusBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "git.blame.editorDecorationForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#969696",
+      "source": "core"
+    },
+    "gitDecoration.addedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#587c0c",
+      "source": "core"
+    },
+    "gitDecoration.conflictingResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ad0707",
+      "source": "core"
+    },
+    "gitDecoration.deletedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ad0707",
+      "source": "core"
+    },
+    "gitDecoration.ignoredResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#8e8e90",
+      "source": "core"
+    },
+    "gitDecoration.modifiedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#895503",
+      "source": "core"
+    },
+    "gitDecoration.renamedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007100",
+      "source": "core"
+    },
+    "gitDecoration.stageDeletedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ad0707",
+      "source": "core"
+    },
+    "gitDecoration.stageModifiedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#895503",
+      "source": "core"
+    },
+    "gitDecoration.submoduleResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#1258a7",
+      "source": "core"
+    },
+    "gitDecoration.untrackedResourceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007100",
+      "source": "core"
+    },
+    "icon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "inactiveSessionView.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "inactiveSessionView.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "inlineChat.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "inlineChat.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "inlineChat.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "inlineChat.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000029",
+      "source": "core"
+    },
+    "inlineChatDiff.inserted": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c20",
+      "source": "core"
+    },
+    "inlineChatDiff.removed": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff00001a",
+      "source": "core"
+    },
+    "inlineChatInput.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "inlineChatInput.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "inlineChatInput.focusBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "inlineChatInput.placeholderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#767676",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#5f5f5f18",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.primaryBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc80",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.primaryBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.primaryForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.secondaryBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.secondaryBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.secondaryForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.successfulBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.successfulBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "inlineEdit.gutterIndicator.successfulForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "inlineEdit.modifiedBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#9ccc2c13",
+      "source": "core"
+    },
+    "inlineEdit.modifiedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#3e511240",
+      "source": "core"
+    },
+    "inlineEdit.modifiedChangedLineBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#9bb95524",
+      "source": "core"
+    },
+    "inlineEdit.modifiedChangedTextBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#9ccc2c2d",
+      "source": "core"
+    },
+    "inlineEdit.originalBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ff00000a",
+      "source": "core"
+    },
+    "inlineEdit.originalBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff000033",
+      "source": "core"
+    },
+    "inlineEdit.originalChangedLineBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ff000029",
+      "source": "core"
+    },
+    "inlineEdit.originalChangedTextBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ff000029",
+      "source": "core"
+    },
+    "inlineEdit.tabWillAcceptModifiedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#3e511240",
+      "source": "core"
+    },
+    "inlineEdit.tabWillAcceptOriginalBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff000033",
+      "source": "core"
+    },
+    "input.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "input.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "input.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "input.placeholderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "inputOption.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f133",
+      "source": "core"
+    },
+    "inputOption.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "inputOption.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "inputOption.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b8b8b850",
+      "source": "core"
+    },
+    "inputValidation.errorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2dede",
+      "source": "core"
+    },
+    "inputValidation.errorBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#be1100",
+      "source": "core"
+    },
+    "inputValidation.errorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "inputValidation.infoBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d6ecf2",
+      "source": "core"
+    },
+    "inputValidation.infoBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "inputValidation.infoForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "inputValidation.warningBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f6f5d2",
+      "source": "core"
+    },
+    "inputValidation.warningBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b89500",
+      "source": "core"
+    },
+    "inputValidation.warningForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "interactive.activeCodeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "interactive.inactiveCodeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "keybindingLabel.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd66",
+      "source": "core"
+    },
+    "keybindingLabel.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cccccc66",
+      "source": "core"
+    },
+    "keybindingLabel.bottomBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bbbbbb66",
+      "source": "core"
+    },
+    "keybindingLabel.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#555555",
+      "source": "core"
+    },
+    "keybindingTable.headerBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6161610a",
+      "source": "core"
+    },
+    "keybindingTable.rowsBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6161610a",
+      "source": "core"
+    },
+    "list.activeSelectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0060c0",
+      "source": "core"
+    },
+    "list.activeSelectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "list.activeSelectionIconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "list.deemphasizedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#8e8e90",
+      "source": "core"
+    },
+    "list.dropBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d6ebff",
+      "source": "core"
+    },
+    "list.dropBetweenBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "list.errorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b01011",
+      "source": "core"
+    },
+    "list.filterMatchBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "list.filterMatchBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.focusAndSelectionOutline": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "list.focusBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.focusForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.focusHighlightForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bbe7ff",
+      "source": "core"
+    },
+    "list.focusOutline": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "list.highlightForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0066bf",
+      "source": "core"
+    },
+    "list.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "list.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.inactiveFocusBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.inactiveFocusOutline": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.inactiveSelectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "list.inactiveSelectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.inactiveSelectionIconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "list.invalidItemForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b89500",
+      "source": "core"
+    },
+    "list.warningForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#855f00",
+      "source": "core"
+    },
+    "listFilterWidget.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "listFilterWidget.noMatchesOutline": {
+      "needsTransparency": false,
+      "vsLightDefault": "#be1100",
+      "source": "core"
+    },
+    "listFilterWidget.outline": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "listFilterWidget.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000029",
+      "source": "core"
+    },
+    "markdownAlert.caution.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "markdownAlert.important.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "markdownAlert.note.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "markdownAlert.tip.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "markdownAlert.warning.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "mcpIcon.starForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#df6100",
+      "source": "core"
+    },
+    "menu.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "menu.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "menu.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "menu.selectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0060c0",
+      "source": "core"
+    },
+    "menu.selectionBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "menu.selectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "menu.separatorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "menubar.selectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b8b8b850",
+      "source": "core"
+    },
+    "menubar.selectionBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "menubar.selectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "merge.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "merge.commonContentBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#60606029",
+      "source": "core"
+    },
+    "merge.commonHeaderBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#60606066",
+      "source": "core"
+    },
+    "merge.currentContentBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#40c8ae33",
+      "source": "core"
+    },
+    "merge.currentHeaderBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#40c8ae80",
+      "source": "core"
+    },
+    "merge.incomingContentBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#40a6ff33",
+      "source": "core"
+    },
+    "merge.incomingHeaderBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#40a6ff80",
+      "source": "core"
+    },
+    "mergeEditor.change.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9bb95533",
+      "source": "core"
+    },
+    "mergeEditor.change.word.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c66",
+      "source": "core"
+    },
+    "mergeEditor.changeBase.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffcccc",
+      "source": "core"
+    },
+    "mergeEditor.changeBase.word.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffa3a3",
+      "source": "core"
+    },
+    "mergeEditor.conflict.handled.minimapOverViewRuler": {
+      "needsTransparency": false,
+      "vsLightDefault": "#adaca8ee",
+      "source": "core"
+    },
+    "mergeEditor.conflict.handledFocused.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c1c1c1cc",
+      "source": "core"
+    },
+    "mergeEditor.conflict.handledUnfocused.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#86868649",
+      "source": "core"
+    },
+    "mergeEditor.conflict.input1.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#40c8ae33",
+      "source": "core"
+    },
+    "mergeEditor.conflict.input2.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#40a6ff33",
+      "source": "core"
+    },
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": {
+      "needsTransparency": false,
+      "vsLightDefault": "#fcba03",
+      "source": "core"
+    },
+    "mergeEditor.conflict.unhandledFocused.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffa600",
+      "source": "core"
+    },
+    "mergeEditor.conflict.unhandledUnfocused.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffa600",
+      "source": "core"
+    },
+    "mergeEditor.conflictingLines.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffea0047",
+      "source": "core"
+    },
+    "minimap.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "minimap.chatEditHighlight": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff99",
+      "source": "core"
+    },
+    "minimap.errorHighlight": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff1212b3",
+      "source": "core"
+    },
+    "minimap.findMatchHighlight": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "minimap.foregroundOpacity": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "minimap.infoHighlight": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "minimap.selectionHighlight": {
+      "needsTransparency": true,
+      "vsLightDefault": "#add6ff",
+      "source": "core"
+    },
+    "minimap.selectionOccurrenceHighlight": {
+      "needsTransparency": true,
+      "vsLightDefault": "#add6ff80",
+      "source": "core"
+    },
+    "minimap.warningHighlight": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "minimapGutter.addedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#48985d",
+      "source": "core"
+    },
+    "minimapGutter.deletedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "minimapGutter.modifiedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2090d3",
+      "source": "core"
+    },
+    "minimapSlider.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000004d",
+      "source": "core"
+    },
+    "minimapSlider.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#64646433",
+      "source": "core"
+    },
+    "minimapSlider.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#64646459",
+      "source": "core"
+    },
+    "modernActivityBar.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "modernActivityBar.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "modernActivityBar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2c2c2c",
+      "source": "core"
+    },
+    "modernActivityBar.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "modernActivityBar.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "modernActivityBar.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "modernActivityBar.inactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2c2c2c",
+      "source": "core"
+    },
+    "modernActivityBarItem.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "modernActivityBarItem.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "modernActivityBarItem.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "modernActivityBarItem.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "modernEditorTab.activeActionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "modernEditorTab.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "modernEditorTab.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "modernEditorTab.activeHoverActionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "modernEditorTab.activeHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "modernEditorTab.hoverActionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "modernEditorTab.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "modernEditorTab.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "modernEditorTab.inactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000000",
+      "source": "core"
+    },
+    "modernEditorTab.selectedActionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "modernPanel.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "modernSash.gripForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616166",
+      "source": "core"
+    },
+    "modernTab.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "modernTab.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "modernTab.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "modernTab.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "modernUI.inactiveShellBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e5e5e5",
+      "source": "core"
+    },
+    "modernUI.shellBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "multiDiffEditor.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "multiDiffEditor.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cccccc",
+      "source": "core"
+    },
+    "multiDiffEditor.headerBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ececec",
+      "source": "core"
+    },
+    "notebook.cellBorderColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "notebook.cellEditorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "notebook.cellHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "notebook.cellInsertionIndicator": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "notebook.cellStatusBarItemHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000014",
+      "source": "core"
+    },
+    "notebook.cellToolbarSeparator": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "notebook.editorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "notebook.focusedCellBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "notebook.focusedCellBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "notebook.focusedEditorBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "notebook.inactiveFocusedCellBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "notebook.inactiveSelectedCellBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "notebook.outputContainerBackgroundColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "notebook.outputContainerBorderColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "notebook.selectedCellBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "notebook.selectedCellBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e8",
+      "source": "core"
+    },
+    "notebook.symbolHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#fdff0033",
+      "source": "core"
+    },
+    "notebookEditorOverviewRuler.runningCellForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "notebookScrollbarSlider.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000099",
+      "source": "core"
+    },
+    "notebookScrollbarSlider.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#64646466",
+      "source": "core"
+    },
+    "notebookScrollbarSlider.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#646464b3",
+      "source": "core"
+    },
+    "notebookStatusErrorIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a1260d",
+      "source": "core"
+    },
+    "notebookStatusRunningIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "notebookStatusSuccessIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#388a34",
+      "source": "core"
+    },
+    "notificationCenter.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d4d4d4",
+      "source": "core"
+    },
+    "notificationCenterHeader.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e7e7e7",
+      "source": "core"
+    },
+    "notificationCenterHeader.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "notificationLink.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#006ab1",
+      "source": "core"
+    },
+    "notificationToast.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d4d4d4",
+      "source": "core"
+    },
+    "notifications.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "notifications.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e7e7e7",
+      "source": "core"
+    },
+    "notifications.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "notificationsErrorIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "notificationsInfoIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "notificationsWarningIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "outputView.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "outputViewStickyScroll.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "panel.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "panel.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "panel.dropBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "panelInput.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "panelSection.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "panelSection.dropBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2677cb2e",
+      "source": "core"
+    },
+    "panelSectionHeader.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808033",
+      "source": "core"
+    },
+    "panelSectionHeader.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "panelSectionHeader.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "panelStickyScroll.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "panelStickyScroll.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "panelStickyScroll.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "panelTitle.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "panelTitle.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242",
+      "source": "core"
+    },
+    "panelTitle.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "panelTitle.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#424242bf",
+      "source": "core"
+    },
+    "panelTitleBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "panelTitleBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "peekView.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "peekViewEditor.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2f8fc",
+      "source": "core"
+    },
+    "peekViewEditor.matchHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f5d802de",
+      "source": "core"
+    },
+    "peekViewEditor.matchHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "peekViewEditorGutter.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2f8fc",
+      "source": "core"
+    },
+    "peekViewEditorStickyScroll.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2f8fc",
+      "source": "core"
+    },
+    "peekViewEditorStickyScrollGutter.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2f8fc",
+      "source": "core"
+    },
+    "peekViewResult.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "peekViewResult.fileForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#1e1e1e",
+      "source": "core"
+    },
+    "peekViewResult.lineForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#646465",
+      "source": "core"
+    },
+    "peekViewResult.matchHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ea5c004d",
+      "source": "core"
+    },
+    "peekViewResult.selectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#3399ff33",
+      "source": "core"
+    },
+    "peekViewResult.selectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6c6c6c",
+      "source": "core"
+    },
+    "peekViewTitle.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "peekViewTitleDescription.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "peekViewTitleLabel.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "pickerGroup.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cccedb",
+      "source": "core"
+    },
+    "pickerGroup.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0066bf",
+      "source": "core"
+    },
+    "ports.iconRunningProcessForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "problemsErrorIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "problemsInfoIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "problemsWarningIcon.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bf8803",
+      "source": "core"
+    },
+    "profileBadge.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c4",
+      "source": "core"
+    },
+    "profileBadge.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "profiles.sashBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "progressBar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0e70c0",
+      "source": "core"
+    },
+    "quickInput.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "quickInput.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "quickInput.list.focusBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "quickInputList.focusBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0060c0",
+      "source": "core"
+    },
+    "quickInputList.focusForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "quickInputList.focusHighlightForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bbe7ff",
+      "source": "core"
+    },
+    "quickInputList.focusIconForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "quickInputTitle.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000000f",
+      "source": "core"
+    },
+    "radio.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f133",
+      "source": "core"
+    },
+    "radio.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "radio.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "radio.inactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "radio.inactiveBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000033",
+      "source": "core"
+    },
+    "radio.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "radio.inactiveHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b8b8b850",
+      "source": "core"
+    },
+    "sash.hoverBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "scmGraph.foreground1": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffb000",
+      "source": "core"
+    },
+    "scmGraph.foreground2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dc267f",
+      "source": "core"
+    },
+    "scmGraph.foreground3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#994f00",
+      "source": "core"
+    },
+    "scmGraph.foreground4": {
+      "needsTransparency": false,
+      "vsLightDefault": "#40b0a6",
+      "source": "core"
+    },
+    "scmGraph.foreground5": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b66dff",
+      "source": "core"
+    },
+    "scmGraph.historyItemBaseRefColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ea5c00",
+      "source": "core"
+    },
+    "scmGraph.historyItemHoverAdditionsForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#587c0c",
+      "source": "core"
+    },
+    "scmGraph.historyItemHoverDefaultLabelBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c4",
+      "source": "core"
+    },
+    "scmGraph.historyItemHoverDefaultLabelForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "scmGraph.historyItemHoverDeletionsForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ad0707",
+      "source": "core"
+    },
+    "scmGraph.historyItemHoverLabelForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "scmGraph.historyItemRefColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "scmGraph.historyItemRemoteRefColor": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "scrollbar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "scrollbar.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "scrollbarSlider.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000099",
+      "source": "core"
+    },
+    "scrollbarSlider.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#64646466",
+      "source": "core"
+    },
+    "scrollbarSlider.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#646464b3",
+      "source": "core"
+    },
+    "search.resultsInfoForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "searchEditor.findMatchBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ea5c0038",
+      "source": "core"
+    },
+    "searchEditor.findMatchBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "searchEditor.textInputBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "selection.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "settings.checkboxBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "settings.checkboxBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#919191",
+      "source": "core"
+    },
+    "settings.checkboxForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "settings.dropdownBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "settings.dropdownBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cecece",
+      "source": "core"
+    },
+    "settings.dropdownForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "settings.dropdownListBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616133",
+      "source": "core"
+    },
+    "settings.focusedRowBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e899",
+      "source": "core"
+    },
+    "settings.focusedRowBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "settings.headerBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "settings.headerForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#444444",
+      "source": "core"
+    },
+    "settings.modifiedItemIndicator": {
+      "needsTransparency": false,
+      "vsLightDefault": "#66afe0",
+      "source": "core"
+    },
+    "settings.numberInputBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "settings.numberInputBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "settings.numberInputForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "settings.rowHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e8e8e84d",
+      "source": "core"
+    },
+    "settings.sashBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "settings.settingsHeaderHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#444444b3",
+      "source": "core"
+    },
+    "settings.textInputBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "settings.textInputBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "settings.textInputForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "sideBar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "sideBar.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "sideBar.dropBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2677cb2e",
+      "source": "core"
+    },
+    "sideBar.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "sideBarActivityBarTop.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616130",
+      "source": "core"
+    },
+    "sideBarSectionHeader.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "sideBarSectionHeader.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "sideBarSectionHeader.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "sideBarStickyScroll.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "sideBarStickyScroll.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "sideBarStickyScroll.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "sideBarTitle.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "sideBarTitle.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "sideBarTitle.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "sideBySideEditor.horizontalBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e7e7e7",
+      "source": "core"
+    },
+    "sideBySideEditor.verticalBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e7e7e7",
+      "source": "core"
+    },
+    "simpleFindWidget.sashBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c8c8c8",
+      "source": "core"
+    },
+    "statusBar.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "statusBar.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "statusBar.debuggingBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cc6633",
+      "source": "core"
+    },
+    "statusBar.debuggingBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "statusBar.debuggingForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBar.focusBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBar.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBar.inactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "statusBar.noFolderBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#68217a",
+      "source": "core"
+    },
+    "statusBar.noFolderBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "statusBar.noFolderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff2e",
+      "source": "core"
+    },
+    "statusBarItem.compactHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.errorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "statusBarItem.errorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.errorHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.errorHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.focusBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.offlineBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6c1717",
+      "source": "core"
+    },
+    "statusBarItem.offlineForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.offlineHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.offlineHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.prominentBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000080",
+      "source": "core"
+    },
+    "statusBarItem.prominentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.prominentHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.prominentHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.remoteBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "statusBarItem.remoteForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "statusBarItem.remoteHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.remoteHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.warningBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#725102",
+      "source": "core"
+    },
+    "statusBarItem.warningForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "statusBarItem.warningHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001f",
+      "source": "core"
+    },
+    "statusBarItem.warningHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "strongForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "surface.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "surface.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "surface.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "symbolIcon.arrayForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.booleanForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.classForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d67e00",
+      "source": "core"
+    },
+    "symbolIcon.colorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.constantForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.constructorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "symbolIcon.enumeratorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d67e00",
+      "source": "core"
+    },
+    "symbolIcon.enumeratorMemberForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "symbolIcon.eventForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d67e00",
+      "source": "core"
+    },
+    "symbolIcon.fieldForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "symbolIcon.fileForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.folderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.functionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "symbolIcon.interfaceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "symbolIcon.keyForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.keywordForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.methodForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "symbolIcon.moduleForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.namespaceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.nullForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.numberForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.objectForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.operatorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.packageForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.propertyForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.referenceForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.snippetForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.stringForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.structForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.textForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.typeParameterForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.unitForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "symbolIcon.variableForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "tab.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "tab.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.activeBorderTop": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "tab.activeModifiedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33aaee",
+      "source": "core"
+    },
+    "tab.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "tab.divider": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "tab.dragAndDropBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "tab.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.hoverBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.hoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.inactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ececec",
+      "source": "core"
+    },
+    "tab.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "tab.inactiveModifiedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33aaee80",
+      "source": "core"
+    },
+    "tab.lastPinnedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "tab.selectedBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "tab.selectedBorderTop": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0090f1",
+      "source": "core"
+    },
+    "tab.selectedForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "tab.unfocusedActiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "tab.unfocusedActiveBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.unfocusedActiveBorderTop": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.unfocusedActiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333b3",
+      "source": "core"
+    },
+    "tab.unfocusedActiveModifiedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33aaeeb3",
+      "source": "core"
+    },
+    "tab.unfocusedHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.unfocusedHoverBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.unfocusedHoverForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tab.unfocusedInactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ececec",
+      "source": "core"
+    },
+    "tab.unfocusedInactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616180",
+      "source": "core"
+    },
+    "tab.unfocusedInactiveModifiedBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33aaee40",
+      "source": "core"
+    },
+    "terminal.ansiBlack": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "terminal.ansiBlue": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0451a5",
+      "source": "core"
+    },
+    "terminal.ansiBrightBlack": {
+      "needsTransparency": false,
+      "vsLightDefault": "#666666",
+      "source": "core"
+    },
+    "terminal.ansiBrightBlue": {
+      "needsTransparency": false,
+      "vsLightDefault": "#3b8eea",
+      "source": "core"
+    },
+    "terminal.ansiBrightCyan": {
+      "needsTransparency": false,
+      "vsLightDefault": "#29b8db",
+      "source": "core"
+    },
+    "terminal.ansiBrightGreen": {
+      "needsTransparency": false,
+      "vsLightDefault": "#14ce14",
+      "source": "core"
+    },
+    "terminal.ansiBrightMagenta": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d670d6",
+      "source": "core"
+    },
+    "terminal.ansiBrightRed": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f14c4c",
+      "source": "core"
+    },
+    "terminal.ansiBrightWhite": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a5a5a5",
+      "source": "core"
+    },
+    "terminal.ansiBrightYellow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b5ba00",
+      "source": "core"
+    },
+    "terminal.ansiCyan": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0598bc",
+      "source": "core"
+    },
+    "terminal.ansiGreen": {
+      "needsTransparency": false,
+      "vsLightDefault": "#107c10",
+      "source": "core"
+    },
+    "terminal.ansiMagenta": {
+      "needsTransparency": false,
+      "vsLightDefault": "#bc05bc",
+      "source": "core"
+    },
+    "terminal.ansiRed": {
+      "needsTransparency": false,
+      "vsLightDefault": "#cd3131",
+      "source": "core"
+    },
+    "terminal.ansiWhite": {
+      "needsTransparency": false,
+      "vsLightDefault": "#555555",
+      "source": "core"
+    },
+    "terminal.ansiYellow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#949800",
+      "source": "core"
+    },
+    "terminal.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminal.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#80808059",
+      "source": "core"
+    },
+    "terminal.dropBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#2677cb2e",
+      "source": "core"
+    },
+    "terminal.findMatchBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#a8ac94",
+      "source": "core"
+    },
+    "terminal.findMatchBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminal.findMatchHighlightBackground": {
+      "needsTransparency": true,
+      "vsLightDefault": "#ea5c0055",
+      "source": "core"
+    },
+    "terminal.findMatchHighlightBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminal.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "terminal.hoverHighlightBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#add6ff13",
+      "source": "core"
+    },
+    "terminal.inactiveSelectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "terminal.initialHintForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000077",
+      "source": "core"
+    },
+    "terminal.selectionBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#add6ff",
+      "source": "core"
+    },
+    "terminal.selectionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminal.tab.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminalCommandDecoration.defaultBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000040",
+      "source": "core"
+    },
+    "terminalCommandDecoration.errorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "terminalCommandDecoration.successBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#2090d3",
+      "source": "core"
+    },
+    "terminalCommandGuide.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e4e6f1",
+      "source": "core"
+    },
+    "terminalCursor.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminalCursor.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminalOverviewRuler.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#7f7f7f4d",
+      "source": "core"
+    },
+    "terminalOverviewRuler.cursorForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a0a0a0cc",
+      "source": "core"
+    },
+    "terminalOverviewRuler.findMatchForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d186167e",
+      "source": "core"
+    },
+    "terminalStickyScroll.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminalStickyScroll.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminalStickyScrollHover.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f0f0f0",
+      "source": "core"
+    },
+    "terminalSymbolIcon.aliasForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "terminalSymbolIcon.argumentForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "terminalSymbolIcon.branchForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.commitForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.fileForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.flagForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d67e00",
+      "source": "core"
+    },
+    "terminalSymbolIcon.folderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.inlineSuggestionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "terminalSymbolIcon.methodForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#652d90",
+      "source": "core"
+    },
+    "terminalSymbolIcon.optionForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d67e00",
+      "source": "core"
+    },
+    "terminalSymbolIcon.optionValueForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc",
+      "source": "core"
+    },
+    "terminalSymbolIcon.pullRequestDoneForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.pullRequestForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.remoteForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.stashForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.symbolText": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.symbolicLinkFileForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.symbolicLinkFolderForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "terminalSymbolIcon.tagForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#616161",
+      "source": "core"
+    },
+    "testing.coverCountBadgeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#c4c4c4",
+      "source": "core"
+    },
+    "testing.coverCountBadgeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "testing.coveredBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c40",
+      "source": "core"
+    },
+    "testing.coveredBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c30",
+      "source": "core"
+    },
+    "testing.coveredGutterBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c27",
+      "source": "core"
+    },
+    "testing.coveredMinimapBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#9ccc2c27",
+      "source": "core"
+    },
+    "testing.iconErrored": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b01011",
+      "source": "core"
+    },
+    "testing.iconErrored.retired": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b01011b3",
+      "source": "core"
+    },
+    "testing.iconFailed": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b01011",
+      "source": "core"
+    },
+    "testing.iconFailed.retired": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b01011b3",
+      "source": "core"
+    },
+    "testing.iconPassed": {
+      "needsTransparency": false,
+      "vsLightDefault": "#73c991",
+      "source": "core"
+    },
+    "testing.iconPassed.retired": {
+      "needsTransparency": false,
+      "vsLightDefault": "#73c991b3",
+      "source": "core"
+    },
+    "testing.iconQueued": {
+      "needsTransparency": false,
+      "vsLightDefault": "#855f00",
+      "source": "core"
+    },
+    "testing.iconQueued.retired": {
+      "needsTransparency": false,
+      "vsLightDefault": "#855f00b3",
+      "source": "core"
+    },
+    "testing.iconSkipped": {
+      "needsTransparency": false,
+      "vsLightDefault": "#848484",
+      "source": "core"
+    },
+    "testing.iconSkipped.retired": {
+      "needsTransparency": false,
+      "vsLightDefault": "#848484b3",
+      "source": "core"
+    },
+    "testing.iconUnset": {
+      "needsTransparency": false,
+      "vsLightDefault": "#848484",
+      "source": "core"
+    },
+    "testing.iconUnset.retired": {
+      "needsTransparency": false,
+      "vsLightDefault": "#848484b3",
+      "source": "core"
+    },
+    "testing.message.error.badgeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "testing.message.error.badgeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "testing.message.error.badgeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "testing.message.error.lineBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "testing.message.info.decorationForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000080",
+      "source": "core"
+    },
+    "testing.message.info.lineBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "testing.messagePeekBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d3",
+      "source": "core"
+    },
+    "testing.messagePeekHeaderBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0063d31a",
+      "source": "core"
+    },
+    "testing.peekBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e51400",
+      "source": "core"
+    },
+    "testing.peekHeaderBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#e514001a",
+      "source": "core"
+    },
+    "testing.runAction": {
+      "needsTransparency": false,
+      "vsLightDefault": "#73c991",
+      "source": "core"
+    },
+    "testing.uncoveredBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff000033",
+      "source": "core"
+    },
+    "testing.uncoveredBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff000026",
+      "source": "core"
+    },
+    "testing.uncoveredBranchBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff9999",
+      "source": "core"
+    },
+    "testing.uncoveredGutterBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff00004d",
+      "source": "core"
+    },
+    "testing.uncoveredMinimapBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff00004d",
+      "source": "core"
+    },
+    "textBlockQuote.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f2f2f2",
+      "source": "core"
+    },
+    "textBlockQuote.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "#007acc80",
+      "source": "core"
+    },
+    "textCodeBlock.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dcdcdc66",
+      "source": "core"
+    },
+    "textLink.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#006ab1",
+      "source": "core"
+    },
+    "textLink.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#006ab1",
+      "source": "core"
+    },
+    "textPreformat.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001a",
+      "source": "core"
+    },
+    "textPreformat.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "textPreformat.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a31515",
+      "source": "core"
+    },
+    "textSeparator.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000002e",
+      "source": "core"
+    },
+    "titleBar.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dddddd",
+      "source": "core"
+    },
+    "titleBar.activeForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#333333",
+      "source": "core"
+    },
+    "titleBar.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "titleBar.inactiveBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "titleBar.inactiveForeground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#33333399",
+      "source": "core"
+    },
+    "toolbar.activeBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a6a6a650",
+      "source": "core"
+    },
+    "toolbar.hoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#b8b8b850",
+      "source": "core"
+    },
+    "toolbar.hoverOutline": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "tree.inactiveIndentGuidesStroke": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a9a9a966",
+      "source": "core"
+    },
+    "tree.indentGuidesStroke": {
+      "needsTransparency": false,
+      "vsLightDefault": "#a9a9a9",
+      "source": "core"
+    },
+    "tree.tableColumnsBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#61616120",
+      "source": "core"
+    },
+    "tree.tableOddRowsBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#6161610a",
+      "source": "core"
+    },
+    "walkThrough.embeddedEditorBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f4f4f4",
+      "source": "core"
+    },
+    "walkthrough.stepTitle.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#000000",
+      "source": "core"
+    },
+    "welcomePage.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "welcomePage.progress.background": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ffffff",
+      "source": "core"
+    },
+    "welcomePage.progress.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#006ab1",
+      "source": "core"
+    },
+    "welcomePage.tileBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#f3f3f3",
+      "source": "core"
+    },
+    "welcomePage.tileBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000001a",
+      "source": "core"
+    },
+    "welcomePage.tileHoverBackground": {
+      "needsTransparency": false,
+      "vsLightDefault": "#dbdbdb",
+      "source": "core"
+    },
+    "widget.border": {
+      "needsTransparency": false,
+      "vsLightDefault": "theme",
+      "source": "core"
+    },
+    "widget.shadow": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00000029",
+      "source": "core"
+    },
+    "window.activeBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    },
+    "window.inactiveBorder": {
+      "needsTransparency": false,
+      "vsLightDefault": "null",
+      "source": "core"
+    }
+  }
+}
