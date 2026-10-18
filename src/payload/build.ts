@@ -29,11 +29,22 @@ export interface ResolveOptions {
   literals?: ReadonlySet<string>;
 }
 
+const DEFAULT_RESOLVE: ResolveOptions = { literals: LITERAL_IDS };
+const resolvedCache = new Map<string, ResolvedRule | null>();
+
 export function resolveRule(
   id: string,
   entry: RegistryEntry | undefined,
-  opt: ResolveOptions = { literals: LITERAL_IDS },
+  opt: ResolveOptions = DEFAULT_RESOLVE,
 ): ResolvedRule | undefined {
+  if (opt === DEFAULT_RESOLVE) {
+    if (!resolvedCache.has(id)) resolvedCache.set(id, resolveUncached(id, entry, opt) ?? null);
+    return resolvedCache.get(id) ?? undefined;
+  }
+  return resolveUncached(id, entry, opt);
+}
+
+function resolveUncached(id: string, entry: RegistryEntry | undefined, opt: ResolveOptions): ResolvedRule | undefined {
   for (const rule of WORKBENCH_RULES) {
     const hit = typeof rule.match === 'string' ? rule.match === id : rule.match.test(id);
     if (!hit) continue;
