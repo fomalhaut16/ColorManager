@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-10-18T05:56:15.356Z",
+  "sources": [
+    "mechatroner.rainbow-csv@3.24.1",
+    "julialang.language-julia@1.219.2"
+  ],
+  "colors": {
+    "julia.profiler.default": {
+      "needsTransparency": true,
+      "vsLightDefault": "#4063dd32",
+      "source": "extension:julialang.language-julia"
+    },
+    "julia.profiler.dispatch": {
+      "needsTransparency": true,
+      "vsLightDefault": "#cc676732",
+      "source": "extension:julialang.language-julia"
+    },
+    "julia.profiler.gc": {
+      "needsTransparency": true,
+      "vsLightDefault": "#cc994432",
+      "source": "extension:julialang.language-julia"
+    },
+    "julia.result.background": {
+      "needsTransparency": true,
+      "vsLightDefault": "#00000011",
+      "source": "extension:julialang.language-julia"
+    },
+    "julia.result.error": {
+      "needsTransparency": false,
+      "vsLightDefault": "#d11111",
+      "source": "extension:julialang.language-julia"
+    },
+    "julia.result.foreground": {
+      "needsTransparency": false,
+      "vsLightDefault": "ref:editor.foreground",
+      "source": "extension:julialang.language-julia"
+    },
+    "julia.result.success": {
+      "needsTransparency": false,
+      "vsLightDefault": "#159eed",
+      "source": "extension:julialang.language-julia"
+    },
+    "rainbowtrack1": {
+      "needsTransparency": false,
+      "vsLightDefault": "#ff0000",
+      "source": "extension:mechatroner.rainbow-csv"
+    },
+    "rainbowtrack2": {
+      "needsTransparency": false,
+      "vsLightDefault": "#00ff00",
+      "source": "extension:mechatroner.rainbow-csv"
+    },
+    "rainbowtrack3": {
+      "needsTransparency": false,
+      "vsLightDefault": "#0000ff",
+      "source": "extension:mechatroner.rainbow-csv"
+    }
+  }
+}
