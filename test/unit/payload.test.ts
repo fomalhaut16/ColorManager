@@ -109,3 +109,12 @@ describe('validatePayload', () => {
     expect(validatePayload(few).some((e) => e.includes('textMateRules count'))).toBe(true);
   });
 });
+
+describe('coverage audit', () => {
+  it('leaves no Visual Studio Light colors except allowlisted ones', async () => {
+    const report = (await import('../../data/coverage-report.json')).default as { leaks: Array<{ id: string }> };
+    const allow = (await import('../../data/coverage-allowlist.json')).default as { ids: Record<string, string> };
+    const unexpected = report.leaks.map((l) => l.id).filter((id) => !(id in allow.ids));
+    expect(unexpected).toEqual([]);
+  });
+});
