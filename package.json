@@ -26,7 +26,118 @@
     },
     "virtualWorkspaces": true
   },
-  "contributes": {},
+  "contributes": {
+    "configuration": {
+      "title": "ColorManager",
+      "properties": {
+        "colorManager.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Visual Studio Light 用の配色を自動で書き込む。false にすると書き込みを止める。"
+        },
+        "colorManager.mode": {
+          "type": "string",
+          "enum": [
+            "normal",
+            "sky"
+          ],
+          "default": "normal",
+          "enumDescriptions": [
+            "0時に赤から始め、色相環の順に進む。",
+            "空の色に寄せる（正午アンバー、夕方ローズ、深夜藍、明け方ティール）。"
+          ],
+          "description": "時刻と色相の対応。"
+        },
+        "colorManager.slotsPerDay": {
+          "type": "number",
+          "enum": [
+            24,
+            48,
+            96,
+            144
+          ],
+          "default": 96,
+          "description": "1日を何個の時間帯に分けるか。96 で15分ごと。"
+        },
+        "colorManager.tint": {
+          "type": "number",
+          "default": 1,
+          "minimum": 0.75,
+          "maximum": 1.2,
+          "description": "淡い面（背景など）の色の濃さ。"
+        },
+        "colorManager.pinnedHue": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "default": null,
+          "description": "値を入れると、時刻に関係なくその色相（度）に固定する。調整用。"
+        },
+        "colorManager.timeOffsetMinutes": {
+          "type": "number",
+          "default": 0,
+          "description": "時刻をずらして確かめる（分）。調整用。"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "colorManager.applyNow",
+        "title": "Apply Now",
+        "category": "ColorManager"
+      },
+      {
+        "command": "colorManager.pause",
+        "title": "Pause",
+        "category": "ColorManager"
+      },
+      {
+        "command": "colorManager.resume",
+        "title": "Resume",
+        "category": "ColorManager"
+      },
+      {
+        "command": "colorManager.showStatus",
+        "title": "Show Status",
+        "category": "ColorManager"
+      },
+      {
+        "command": "colorManager.removeCustomizations",
+        "title": "Remove Customizations",
+        "category": "ColorManager"
+      },
+      {
+        "command": "colorManager.openBackups",
+        "title": "Open Backups Folder",
+        "category": "ColorManager"
+      },
+      {
+        "command": "colorManager.dev.dumpRegistry",
+        "title": "Dump Color Registry",
+        "category": "ColorManager (dev)",
+        "enablement": "colorManager.isDevelopment"
+      },
+      {
+        "command": "colorManager.dev.auditCoverage",
+        "title": "Audit Coverage",
+        "category": "ColorManager (dev)",
+        "enablement": "colorManager.isDevelopment"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "colorManager.dev.dumpRegistry",
+          "when": "colorManager.isDevelopment"
+        },
+        {
+          "command": "colorManager.dev.auditCoverage",
+          "when": "colorManager.isDevelopment"
+        }
+      ]
+    }
+  },
   "scripts": {
     "build": "node esbuild.mjs",
     "watch": "node esbuild.mjs --watch",
