@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { sameFilePath } from './paths';
 import { MANAGED_KEYS, type ManagedKey } from './settingsKeys';
 import type { BackupStore, ConfigIO, SettingsIO, WriterUi } from './settingsWriter';
 import { isTargetThemeActive, type ThemeKind } from './themeGate';
@@ -33,7 +34,10 @@ export function settingsIO(context: vscode.ExtensionContext): SettingsIO {
     },
     isDirty: () =>
       vscode.workspace.textDocuments.some(
-        (d) => d.isDirty && d.uri.path === uri.path && (d.uri.scheme === 'vscode-userdata' || d.uri.scheme === 'file'),
+        (d) =>
+          d.isDirty &&
+          (d.uri.scheme === 'vscode-userdata' || d.uri.scheme === 'file') &&
+          sameFilePath(d.uri.path, uri.path),
       ),
   };
 }
@@ -43,6 +47,11 @@ const KEEP_SNAPSHOTS = 20;
 
 export function backupDir(context: vscode.ExtensionContext): vscode.Uri {
   return vscode.Uri.joinPath(context.globalStorageUri, 'backups');
+}
+
+/** globalStorageUri uses the internal vscode-userdata scheme; the OS needs a file URI. */
+export function backupFolderForOS(context: vscode.ExtensionContext): vscode.Uri {
+  return vscode.Uri.file(backupDir(context).fsPath);
 }
 
 export function backupStore(context: vscode.ExtensionContext): BackupStore {
