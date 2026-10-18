@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "vscode-icons",
+    // line comment at the top level
+    "[python]": {
+        "editor.formatOnType": true,
+		
+    },
+	"python.analysis.extraPaths": ["${workspaceFolder}"],
+    /* block comment
+       spanning lines */
+    "workbench.colorCustomizations": {
+        "[Monokai]": { "editor.background": "#272822" },
+    },
+    "latex-workshop.latex.outDir": "./out",	
+		"latex-workshop.latex.recipes": [
+			{ "name": "latexmk 🔃", "tools": ["latexmk"] },
+		],
+    "editor.fontFamily": "Menlo, Monaco, 筑紫A丸ゴシック, 'Courier New', monospace",
+    "colorManager.enabled": true,
+    "workbench.startupEditor": "none",
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "telemetry.telemetryLevel": "off",
+    "security.workspace.trust.enabled": false,
+}

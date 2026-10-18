@@ -1,6 +1,8 @@
 import * as vscode from 'vscode';
 import { writeFileSync } from 'node:fs';
 import { auditCoverage } from '../../src/dev/auditCoverage';
+import type { TestApi } from '../../src/extension';
+import { runIntegrationTests } from './tests';
 
 // Entry point loaded by @vscode/test-electron inside the isolated instance.
 
@@ -31,8 +33,11 @@ export async function run(): Promise<void> {
   // Wait for our extension to activate.
   const ext = vscode.extensions.getExtension('local.colormanager');
   if (!ext) throw new Error('extension local.colormanager not found');
-  await ext.activate();
+  const api = (await ext.activate()) as TestApi | undefined;
   switch (process.env.CM_TASK) {
+    case 'test':
+      if (!api) throw new Error('test API is only available in ExtensionMode.Test');
+      return runIntegrationTests(api);
     case 'dump-registry':
       return dumpRegistryTask();
     case 'audit-literals':
