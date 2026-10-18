@@ -5,6 +5,6 @@ out/
 .vscode-test/
 .dev-user-data/
 .yomiyasu/
-.claude/settings.local.json
+.claude/
 .DS_Store
 __pycache__/
