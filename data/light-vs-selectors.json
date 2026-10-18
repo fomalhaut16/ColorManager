@@ -1,0 +1,594 @@
+{
+  "vscodeVersion": "1.141.0",
+  "source": "theme-defaults/themes/light_vs.json",
+  "workbenchColors": [
+    "checkbox.border",
+    "editor.background",
+    "editor.foreground",
+    "editorGroupHeader.connectedTabsBackground",
+    "editorGroupHeader.tabsBorder",
+    "editor.inactiveSelectionBackground",
+    "editorIndentGuide.background1",
+    "editorIndentGuide.activeBackground1",
+    "editor.selectionHighlightBackground",
+    "editorSuggestWidget.background",
+    "activityBarBadge.background",
+    "browser.border",
+    "sideBarTitle.foreground",
+    "list.hoverBackground",
+    "menu.border",
+    "input.placeholderForeground",
+    "searchEditor.textInputBorder",
+    "settings.textInputBorder",
+    "settings.numberInputBorder",
+    "statusBarItem.remoteForeground",
+    "statusBarItem.remoteBackground",
+    "statusBar.inactiveBackground",
+    "ports.iconRunningProcessForeground",
+    "sideBarSectionHeader.background",
+    "sideBarSectionHeader.border",
+    "tab.selectedForeground",
+    "tab.inactiveForeground",
+    "tab.selectedBackground",
+    "tab.lastPinnedBorder",
+    "notebook.cellBorderColor",
+    "notebook.selectedCellBackground",
+    "statusBarItem.errorBackground",
+    "list.activeSelectionIconForeground",
+    "list.focusAndSelectionOutline",
+    "terminal.inactiveSelectionBackground",
+    "widget.border",
+    "actionBar.toggledBackground",
+    "diffEditor.unchangedRegionBackground",
+    "agentsNewSessionButton.border",
+    "agentsChatInput.border",
+    "agentsPanel.border",
+    "surface.border",
+    "modernActivityBarItem.activeBackground",
+    "modernActivityBarItem.hoverBackground",
+    "modernActivityBarItem.activeForeground",
+    "modernActivityBarItem.hoverForeground",
+    "modernActivityBar.border",
+    "titleBar.inactiveBackground"
+  ],
+  "selectors": [
+    {
+      "selector": "meta.embedded",
+      "role": "fg",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "source.groovy.embedded",
+      "role": "fg",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string meta.image.inline.markdown",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "variable.legacy.builtin.python",
+      "role": "tok.variable",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "emphasis",
+      "role": "md.italic",
+      "themeFontStyle": "italic"
+    },
+    {
+      "selector": "strong",
+      "role": "md.bold",
+      "themeFontStyle": "bold"
+    },
+    {
+      "selector": "meta.diff.header",
+      "role": "diff.header",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "comment",
+      "role": "tok.comment",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "constant.language",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "constant.numeric",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "variable.other.enummember",
+      "role": "tok.variable",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.plus.exponent",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.minus.exponent",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "constant.regexp",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.name.tag",
+      "role": "tok.tag",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.name.selector",
+      "role": "tok.tag",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name.class.css",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "source.css entity.other.attribute-name.class",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name.id.css",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name.parent-selector.css",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name.parent.less",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "source.css entity.other.attribute-name.pseudo-class",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name.pseudo-element.css",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "source.css.less entity.other.attribute-name.id",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.other.attribute-name.scss",
+      "role": "tok.attribute",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "invalid",
+      "role": "status.error",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "markup.underline",
+      "role": "md.link",
+      "themeFontStyle": "underline"
+    },
+    {
+      "selector": "markup.bold",
+      "role": "md.bold",
+      "themeFontStyle": "bold"
+    },
+    {
+      "selector": "markup.heading",
+      "role": "md.heading",
+      "themeFontStyle": "bold"
+    },
+    {
+      "selector": "markup.italic",
+      "role": "md.italic",
+      "themeFontStyle": "italic"
+    },
+    {
+      "selector": "markup.strikethrough",
+      "role": "md.strike",
+      "themeFontStyle": "strikethrough"
+    },
+    {
+      "selector": "markup.inserted",
+      "role": "diff.inserted",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "markup.deleted",
+      "role": "diff.deleted",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "markup.changed",
+      "role": "diff.changed",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.definition.quote.begin.markdown",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.definition.list.begin.markdown",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "markup.inline.raw",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.definition.tag",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "meta.preprocessor",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "entity.name.function.preprocessor",
+      "role": "tok.function",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "meta.preprocessor.string",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "meta.preprocessor.numeric",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "meta.structure.dictionary.key.python",
+      "role": "tok.property",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "storage",
+      "role": "tok.storage",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "storage.type",
+      "role": "tok.storage",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "storage.modifier",
+      "role": "tok.storage",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.noexcept",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "meta.embedded.assembly",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.comment.buffered.block.pug",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.pug",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.interpolated.pug",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.unquoted.plain.in.yaml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.unquoted.plain.out.yaml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.unquoted.block.yaml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.single.yaml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.double.xml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.single.xml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.unquoted.cdata.xml",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.double.html",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.single.html",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.unquoted.html",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.single.handlebars",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.quoted.double.handlebars",
+      "role": "tok.string",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "string.regexp",
+      "role": "tok.regexp",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.definition.template-expression.begin",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.definition.template-expression.end",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.section.embedded",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "meta.template.expression",
+      "role": "fg",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.constant.property-value",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.constant.font-name",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.constant.media-type",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.constant.media",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "constant.other.color.rgb-value",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "constant.other.rgb-value",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.constant.color",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.type.vendored.property-name",
+      "role": "tok.type",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.type.property-name",
+      "role": "tok.property",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "source.css variable",
+      "role": "tok.variable",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "source.coffee.embedded",
+      "role": "fg",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.type.property-name.json",
+      "role": "tok.property",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.control",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.new",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.expression",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.cast",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.sizeof",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.alignof",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.typeid",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.alignas",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.instanceof",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.logical.python",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.operator.wordlike",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "keyword.other.unit",
+      "role": "tok.keyword",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.section.embedded.begin.php",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "punctuation.section.embedded.end.php",
+      "role": "tok.operator",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "support.function.git-rebase",
+      "role": "tok.function",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "constant.sha.git-rebase",
+      "role": "tok.number",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "storage.modifier.import.java",
+      "role": "tok.storage",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "variable.language.wildcard.java",
+      "role": "tok.variable",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "storage.modifier.package.java",
+      "role": "tok.storage",
+      "themeFontStyle": null
+    },
+    {
+      "selector": "variable.language",
+      "role": "tok.variable",
+      "themeFontStyle": null
+    }
+  ],
+  "semantic": [
+    {
+      "selector": "newOperator",
+      "role": "tok.keyword"
+    },
+    {
+      "selector": "stringLiteral",
+      "role": "tok.string"
+    },
+    {
+      "selector": "customLiteral",
+      "role": "editor.fg"
+    },
+    {
+      "selector": "numberLiteral",
+      "role": "tok.number"
+    }
+  ]
+}
