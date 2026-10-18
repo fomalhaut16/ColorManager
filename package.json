@@ -4,7 +4,7 @@
   "description": "Rotates the Visual Studio Light color theme through all hues once a day.",
   "publisher": "local",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
