@@ -11,6 +11,8 @@ export function rgb8ToHex(rgb: Rgb8, alpha?: number): string {
   return alpha === undefined ? base : base + byte(alpha * 255);
 }
 
+const CLAMP_TOLERANCE = 3;
+
 export interface TranslucentResult {
   hex: string;
   /** Alpha actually used, quantized to 1/255. */
@@ -33,7 +35,8 @@ export function solveTranslucent(
   for (let a0 = initialAlpha; a0 <= maxAlpha + 1e-9; a0 += 0.05) {
     const alpha = Math.round(a0 * 255) / 255;
     const s = [0, 1, 2].map((i) => background[i]! + (target[i]! - background[i]!) / alpha);
-    if (s.every((v) => v >= -0.5 && v <= 255.5)) {
+    // A few units outside [0, 255] is invisible once clamped by rgb8ToHex.
+    if (s.every((v) => v >= -CLAMP_TOLERANCE && v <= 255 + CLAMP_TOLERANCE)) {
       return { hex: rgb8ToHex(s as Rgb8, alpha), alpha, clamped: false };
     }
   }
