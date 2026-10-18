@@ -149,7 +149,7 @@ export class SettingsWriter {
     }
     // Step 5: ownership of all three keys before writing any.
     const foreign = MANAGED_KEYS.filter(
-      (k) => !d.ownership.isOwned(asRecord(analysis.values[k])[THEME_KEY], payload[k], d.slotHashes(k)),
+      (k) => !d.ownership.isOwned(asRecord(analysis.values[k])[THEME_KEY], payload[k], () => d.slotHashes(k)),
     );
     let forceSnapshot = false;
     if (foreign.length > 0) {

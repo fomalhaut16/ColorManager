@@ -33,10 +33,10 @@ export class OwnershipRecord {
    * absent, equals the payload about to be written, was written recently, or
    * equals the payload of some slot under the current settings.
    */
-  isOwned(current: unknown, payload: unknown, slotHashes: ReadonlySet<string>): boolean {
+  isOwned(current: unknown, payload: unknown, slotHashes: () => ReadonlySet<string>): boolean {
     if (current === undefined) return true;
     if (deepEqual(current, payload)) return true;
     const h = valueHash(current);
-    return this.ring().includes(h) || slotHashes.has(h);
+    return this.ring().includes(h) || slotHashes().has(h);
   }
 }
