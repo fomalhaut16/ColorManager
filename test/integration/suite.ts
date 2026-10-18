@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
-import { writeFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { auditCoverage } from '../../src/dev/auditCoverage';
 import type { TestApi } from '../../src/extension';
 import { runIntegrationTests } from './tests';
@@ -29,12 +30,40 @@ async function auditTask(): Promise<void> {
   for (const l of r.leaks) console.log(`[audit]   ${l.id} ${l.value}`);
 }
 
+async function showcaseTask(api: TestApi): Promise<void> {
+  // Renders a few hues in the real workbench and captures the screen (macOS).
+  const outDir = `${ROOT}/out/showcase`;
+  mkdirSync(outDir, { recursive: true });
+  await vscode.workspace.getConfiguration().update('colorManager.enabled', true, vscode.ConfigurationTarget.Global);
+  api.setUi({ isFocused: () => false, notify: () => {} });
+  const doc = await vscode.workspace.openTextDocument(vscode.Uri.file(`${ROOT}/src/palette/generate.ts`));
+  await vscode.window.showTextDocument(doc);
+  await vscode.commands.executeCommand('workbench.view.explorer');
+  await vscode.commands.executeCommand('workbench.action.terminal.toggleTerminal');
+  const hues = (process.env.CM_HUES ?? '29.234,119.234,209.234,299.234').split(',').map(Number);
+  for (const h of hues) {
+    const r = await api.apply(h);
+    console.log(`[showcase] hue ${h}: ${r.status} ${r.reason}`);
+    await new Promise((res) => setTimeout(res, 2500));
+    try {
+      // Capture only this instance's window (owned by the main process, the extension host's parent).
+      const id = execFileSync('/usr/bin/swift', [`${ROOT}/scripts/window-id.swift`, String(process.ppid)]).toString().trim();
+      execFileSync('/usr/sbin/screencapture', ['-x', '-o', `-l${id}`, `${outDir}/hue-${Math.round(h)}.png`]);
+    } catch (e) {
+      console.log(`[showcase] screencapture failed: ${String(e)}`);
+    }
+  }
+}
+
 export async function run(): Promise<void> {
   // Wait for our extension to activate.
   const ext = vscode.extensions.getExtension('local.colormanager');
   if (!ext) throw new Error('extension local.colormanager not found');
   const api = (await ext.activate()) as TestApi | undefined;
   switch (process.env.CM_TASK) {
+    case 'showcase':
+      if (!api) throw new Error('test API is only available in ExtensionMode.Test');
+      return showcaseTask(api);
     case 'test':
       if (!api) throw new Error('test API is only available in ExtensionMode.Test');
       return runIntegrationTests(api);
