@@ -56,9 +56,9 @@ export function symbolIconRole(id: string): RoleName | undefined {
 
 /** Semantic keywords inside an id -> status role. */
 function statusRole(id: string): RoleName | undefined {
-  const name = id.split('.').slice(1).join('.') || id;
-  if (/(error|Error|failed|Failed|deleted|Deleted|removed|Removed|conflict|Conflict|invalid|Invalid|stop|Stop|breakpoint(?!Unverified)|Breakpoint(?!Unverified))/.test(name)) return 'status.error';
-  if (/(warning|Warning|modified|Modified|changed|Changed|queued|Queued|pause|Pause)/.test(name)) return 'status.warning';
+  const name = id;
+  if (/(error|Error|failed|Failed|deleted|Deleted|removed|Removed|conflict|Conflict|invalid|Invalid|stop|Stop|disconnect|Disconnect|breakpoint(?!Unverified)|Breakpoint(?!Unverified))/.test(name)) return 'status.error';
+  if (/(warning|Warning|modified|Modified|changed|Changed|edited|Edited|queued|Queued|pause|Pause)/.test(name)) return 'status.warning';
   if (/(added|Added|inserted|Inserted|passed|Passed|success|Success|untracked|Untracked|start|Start|restart|Restart|running|Running)/.test(name)) return 'status.success';
   if (/(info|Info|renamed|Renamed|submodule|Submodule|step|Step|continue|Continue)/.test(name)) return 'status.info';
   return undefined;
@@ -484,7 +484,66 @@ export const WORKBENCH_RULES: Rule[] = [
   { match: 'julia.result.success', role: 'status.info' },
   { match: /^rainbowtrack([1-3])$/, role: (id) => `bracket.${Number(id.slice(-1)) * 2 - 1}` as RoleName },
 
+  // ---- Literal-default colors found by the coverage audit ----
+  { match: /^extensionButton\.prominent(Background)$/, role: 'accent' },
+  { match: /^extensionButton\.prominent(HoverBackground)$/, role: 'accent.hover' },
+  { match: /^extensionButton\.prominent(Foreground)$/, role: 'onAccent' },
+  { match: /[bB]adge(Remote)?Foreground$/, role: 'onAccent' },
+  { match: 'extensionBadge.remoteForeground', role: 'onAccent' },
+  { match: /^inlineEdit\.gutterIndicator\.\w+Foreground$/, role: 'onAccent' },
+  { match: 'inlineEdit.gutterIndicator.background', role: 'fg.primary', alpha: 0.08 },
+  { match: /^statusBarItem\.\w*[hH]overBackground$/, role: 'onAccent', alpha: 0.16 },
+  { match: 'statusBarItem.activeBackground', role: 'onAccent', alpha: 0.24 },
+  { match: /^(toolbar|agentsNewSessionButton)\.hoverBackground$/, role: 'fg.primary', alpha: 0.1 },
+  { match: 'toolbar.activeBackground', role: 'fg.primary', alpha: 0.16 },
+  { match: 'notebook.cellStatusBarItemHoverBackground', role: 'fg.primary', alpha: 0.08 },
+  { match: 'chart.axis', role: 'fg.secondary' },
+  { match: 'chart.guide', role: 'border' },
+  { match: 'chart.line', role: 'accent' },
+  { match: 'chat.checkpointSeparator', role: 'border.strong' },
+  { match: 'chat.thinkingShimmer', role: 'accent' },
+  { match: 'chat.avatarBackground', role: 'sideBar.bg' },
+  { match: 'chat.requestBorder', role: 'border' },
+  { match: 'chat.requestCodeBorder', role: 'accent', alpha: 0.25 },
+  { match: 'chat.slashCommandBackground', role: 'selHighlight' },
+  { match: 'chat.slashCommandForeground', role: 'textLink' },
+  { match: /^chat\.workingProgress\w*IconForeground$/, role: 'accent' },
+  { match: 'chat.sessionStateIndicator.inProgressBorder', role: 'status.warning' },
+  { match: 'chat.sessionStateIndicator.unvisitedBorder', role: 'status.success' },
+  { match: 'agentsVoice.speakingBackground', role: 'accent', alpha: 0.1 },
+  { match: 'agentsVoice.speakingForeground', role: 'accent' },
+  { match: 'editor.compositionBorder', role: 'editor.fg' },
+  { match: 'editor.foldPlaceholderForeground', role: 'fg.secondary' },
+  { match: 'editor.inlineValuesBackground', role: 'find.other', alpha: 0.4 },
+  { match: 'editor.inlineValuesForeground', role: 'fg.secondary' },
+  { match: 'editor.snippetTabstopHighlightBackground', role: 'selHighlight', alpha: 0.4 },
+  { match: 'editor.snippetFinalTabstopHighlightBorder', role: 'border.strong' },
+  { match: 'strongForeground', role: 'editor.fg' },
+  { match: /^editorMarkerNavigation(Error|Warning|Info)\.headerBackground$/, role: statusRole, alpha: 0.1 },
+  { match: 'mergeEditor.change.background', role: 'diff.insertedBg', alpha: 0.35 },
+  { match: 'mergeEditor.change.word.background', role: 'status.success', alpha: 0.3 },
+  { match: 'mergeEditor.changeBase.background', role: 'diff.removedBg' },
+  { match: 'mergeEditor.changeBase.word.background', role: 'status.error', alpha: 0.3 },
+  { match: 'mergeEditor.conflict.input2.background', role: 'status.info', alpha: 0.2 },
+  { match: 'mergeEditor.conflictingLines.background', role: 'status.warning', alpha: 0.2 },
+  { match: 'mergeEditor.conflict.handledFocused.border', role: 'border.strong' },
+  { match: 'mergeEditor.conflict.handledUnfocused.border', role: 'border' },
+  { match: /^mergeEditor\.conflict\.unhandled(Focused|Unfocused)\.border$/, role: 'status.warning' },
+  { match: 'mergeEditor.conflict.handled.minimapOverViewRuler', role: 'border.strong' },
+  { match: 'mergeEditor.conflict.unhandled.minimapOverViewRuler', role: 'status.warning' },
+  { match: /^(multiDiffEditor\.border|simpleFindWidget\.sashBorder)$/, role: 'border' },
+  { match: 'notebook.symbolHighlightBackground', role: 'find.other', alpha: 0.4 },
+  { match: 'testing.iconQueued.retired', role: 'status.warning', alpha: 0.7 },
+  { match: /^testing\.(messagePeekBorder)$/, role: 'status.info' },
+  { match: /^testing\.(messagePeekHeaderBackground)$/, role: 'status.info', alpha: 0.1 },
+  { match: /^testing\.(peekBorder)$/, role: 'status.error' },
+  { match: /^testing\.(peekHeaderBackground)$/, role: 'status.error', alpha: 0.1 },
+  { match: /^debugIcon\.\w+Foreground$/, role: statusRole },
+  { match: 'debugExceptionWidget.border', role: 'status.error' },
+  { match: /^(terminalCommandDecoration\.\w+Background|notebookEditorOverviewRuler\.runningCellForeground|debugConsole\.\w+Foreground)$/, role: statusRole },
+
   // ---- Generic fallbacks (never for ids whose VS Light value is null) ----
+  { match: /(Foreground|Background|Border)$/, role: statusRole, fallback: true },
   { match: /(Error|error)\w*(Foreground|Border|Background)$/, role: 'status.error', fallback: true },
   { match: /(Warning|warning)\w*(Foreground|Border|Background)$/, role: 'status.warning', fallback: true },
   { match: /(Hover|hover)\w*Background$/, role: 'list.hover', fallback: true },
