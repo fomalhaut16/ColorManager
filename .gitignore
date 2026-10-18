@@ -1,0 +1,10 @@
+node_modules/
+dist/
+out/
+*.vsix
+.vscode-test/
+.dev-user-data/
+.yomiyasu/
+.claude/settings.local.json
+.DS_Store
+__pycache__/
