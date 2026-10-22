@@ -10,7 +10,7 @@ export interface SemanticStyle {
   strikethrough: boolean;
 }
 
-/** Plan section 8: semantic token selector -> role and italic flag. */
+/** Semantic token selector -> role and italic flag. */
 const SEMANTIC_RULES: Array<[string[], RoleName, boolean]> = [
   [['namespace', 'type', 'class', 'interface', 'enum', 'struct', 'typeParameter'], 'tok.type', false],
   [['enumMember'], 'tok.number', false],

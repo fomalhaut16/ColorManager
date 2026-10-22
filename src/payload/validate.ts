@@ -8,7 +8,7 @@ export const LIMITS = {
   semanticRules: [20, 60],
 } as const;
 
-/** Plan 9.2 step 3. Returns a list of problems; empty means the payload may be written. */
+/** Returns a list of problems; empty means the payload may be written. */
 export function validatePayload(payload: Payload): string[] {
   const errors: string[] = [];
   const colors = payload['workbench.colorCustomizations'];

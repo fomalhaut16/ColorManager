@@ -4,7 +4,7 @@ import { buildPayload, type ResolveOptions } from '../payload/build';
 import { MANAGED_KEYS, THEME_KEY, type Payload } from '../settingsKeys';
 import { generateThemeDump, type ThemeDumpEntry } from './generateThemeDump';
 
-// Plan 7.4: finds colors that do not follow the main hue, i.e. colors that
+// Finds colors that do not follow the main hue, i.e. colors that
 // still show Visual Studio Light or VSCode default values. Writes directly
 // with config.update, so run it only in an isolated instance.
 

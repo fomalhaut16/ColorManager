@@ -1,6 +1,6 @@
 import { periodicCatmullRom } from '../color/catmullRom';
 
-// Anchor corrections for vivid text at absolute hues 0, 30, ..., 330 (plan 6.7).
+// Anchor corrections for vivid text at absolute hues 0, 30, ..., 330.
 // Changing these shifts the distances between token colors, so rerun the
 // palette tests after every edit.
 export const ANCHOR_DL = [0, 0, 0.01, 0.04, 0, -0.01, -0.02, -0.02, 0, 0.01, 0, 0] as const;

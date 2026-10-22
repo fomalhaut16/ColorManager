@@ -1,6 +1,6 @@
 import type { ApplyResult } from './settingsWriter';
 
-// Decides when to apply (plan section 10). Time and timers are injected so the
+// Decides when to apply. Time and timers are injected so the
 // logic can be tested with a fake clock.
 
 export interface ApplyKey {

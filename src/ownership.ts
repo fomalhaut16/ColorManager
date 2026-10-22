@@ -29,7 +29,7 @@ export class OwnershipRecord {
   }
 
   /**
-   * Plan 9.3: a value under the theme key belongs to ColorManager if it is
+   * a value under the theme key belongs to ColorManager if it is
    * absent, equals the payload about to be written, was written recently, or
    * equals the payload of some slot under the current settings.
    */

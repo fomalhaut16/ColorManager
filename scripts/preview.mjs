@@ -88,7 +88,7 @@ const html = `<!doctype html>
   <label><input id="play" type="checkbox"> 1日を流す</label>
 </div>
 <div class="win" id="win">
-  <div class="title" id="title">implementation-plan.md — ColorManager</div>
+  <div class="title" id="title">README.md — ColorManager</div>
   <div class="body">
     <div class="activity" id="activity"><span class="on"></span><span></span><span></span><span></span></div>
     <div class="side" id="side">
@@ -122,7 +122,7 @@ const CODE = [
   [['tok.operator','}']],
   [],
   [['md.heading','## ColorManager']],
-  [['fg','Hue rotates '],['md.bold','once a day'],['fg',', see '],['md.link','docs/implementation-plan.md'],['fg','.']],
+  [['fg','Hue rotates '],['md.bold','once a day'],['fg',', see '],['md.link','README.md'],['fg','.']],
 ];
 const SW = ['editor.bg','sideBar.bg','tabs.strip','titleBar.bg','activityBar.bg','accent','statusBar.bg','statusBar.alt','sel.editor','find.current','editor.fg','fg.secondary','tok.keyword','tok.storage','tok.function','tok.type','tok.string','tok.number','tok.parameter','tok.regexp','tok.property','tok.comment','status.error','status.warning','status.info','status.success','ansi.red','ansi.green','ansi.yellow','ansi.blue','ansi.magenta','ansi.cyan','bracket.1','bracket.2','bracket.3','bracket.4','bracket.5','bracket.6'];
 const $ = (id) => document.getElementById(id);

@@ -2,7 +2,7 @@ import lightVs from '../../data/light-vs-selectors.json';
 import { colorHex, type Palette } from '../palette/generate';
 import type { RoleName } from '../palette/roles';
 
-// TextMate rules (plan section 8): one rule per selector, scope as a string,
+// TextMate rules: one rule per selector, scope as a string,
 // fontStyle always explicit so nothing from Visual Studio Light survives.
 
 export interface TextMateRule {

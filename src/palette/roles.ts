@@ -1,4 +1,4 @@
-// Role tables from docs/implementation-plan.md section 6.
+// Role tables for the palette.
 // Hue = H (main hue) + offset unless `hue` fixes an absolute hue.
 
 export type FontStyle = '' | 'italic' | 'bold' | 'underline' | 'strikethrough';
@@ -10,13 +10,13 @@ export interface RoleDef {
   offset?: number;
   /** Absolute hue; overrides `offset`. */
   hue?: number;
-  /** Vivid text gets the anchor corrections (plan 6.7). */
+  /** Vivid text gets the anchor corrections. */
   group?: 'vivid';
   /** Alpha appended as-is to the hex (not a composited target). */
   alpha?: number;
 }
 
-/** UI roles (plan 6.5). */
+/** UI roles. */
 export const UI_ROLES = {
   'editor.bg': { L: 0.955, C: 0.022 },
   'sideBar.bg': { L: 0.935, C: 0.03 },
@@ -58,7 +58,7 @@ export const UI_ROLES = {
   'button.secondary': { L: 0.88, C: 0.04 },
 } as const satisfies Record<string, RoleDef>;
 
-/** Syntax roles (plan 6.6). */
+/** Syntax roles. */
 export const TOKEN_ROLES = {
   'tok.keyword': { L: 0.49, C: 0.15, group: 'vivid' },
   'tok.storage': { L: 0.42, C: 0.11, offset: 20, group: 'vivid' },
@@ -74,7 +74,7 @@ export const TOKEN_ROLES = {
   'tok.operator': { L: 0.4, C: 0.02 },
 } as const satisfies Record<string, RoleDef>;
 
-/** Fixed-hue status colors (plan 6.8). `dir`/`amp` drive the lightness dodge. */
+/** Fixed-hue status colors. `dir`/`amp` drive the lightness dodge. */
 export const STATUS_ROLES = {
   'status.error': { L: 0.55, C: 0.19, hue: 27, dir: -1, amp: 0.1 },
   'status.warning': { L: 0.64, C: 0.14, hue: 70, dir: 1, amp: 0.06 },
@@ -99,7 +99,7 @@ const ANSI_BASE = {
 /** Bright ANSI colors are slightly lighter and more vivid than the base ones. */
 const ANSI_BRIGHT_DL = 0.02;
 
-/** Terminal ANSI colors (plan 6.9). Black/white families follow the main hue. */
+/** Terminal ANSI colors. Black/white families follow the main hue. */
 export const ANSI_ROLES = {
   'ansi.black': { L: 0.3, C: 0.025 },
   'ansi.white': { L: 0.48, C: 0.02 },
@@ -129,7 +129,7 @@ export const BRACKET_ROLES = {
   'bracket.6': { L: 0.5, C: 0.12, offset: 300 },
 } as const satisfies Record<string, RoleDef>;
 
-/** Aliases reuse another role's color, optionally with a font style (plan 6.6). */
+/** Aliases reuse another role's color, optionally with a font style. */
 export const ALIAS_ROLES = {
   'tok.tag': { of: 'tok.keyword', fontStyle: '' },
   'tok.attribute': { of: 'tok.type', fontStyle: '' },

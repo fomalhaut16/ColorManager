@@ -1,7 +1,7 @@
 import type { RoleName } from './roles';
 
-// Contrast pairs checked (and, as a safety net, corrected) after generation
-// (plan 6.10). Lc values are absolute APCA lightness contrast.
+// Contrast pairs checked (and, as a safety net, corrected) after generation.
+// Lc values are absolute APCA lightness contrast.
 
 export interface ContrastPair {
   text: RoleName;

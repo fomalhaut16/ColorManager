@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
-// Reads the output of "Developer: Generate Color Theme From Current Settings"
-// (plan 7.5). The output is JSONC with commented-out lines, so parse per line.
+// Reads the output of "Developer: Generate Color Theme From Current Settings".
+// The output is JSONC with commented-out lines, so parse per line.
 
 export interface ThemeDumpEntry {
   /** True when the color is set by the theme or customizations (an uncommented key). */

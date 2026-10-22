@@ -21,7 +21,7 @@ export function maxChroma(L: number, h: number): number {
 
 /**
  * Smooth min(C, 0.98 * maxC). Always below the gamut cap and continuous in hue,
- * so a full hue rotation has no seams (plan 6.4).
+ * so a full hue rotation has no seams.
  */
 export function softChroma(L: number, C: number, h: number): number {
   if (C <= 0) return 0;

@@ -1,13 +1,13 @@
 import type { RoleName } from '../palette/roles';
 
-// Workbench color id -> role (plan 7.3). Rules are evaluated top to bottom;
+// Workbench color id -> role. Rules are evaluated top to bottom;
 // the first match wins. Ids that match nothing are not written; the coverage
-// audit (plan 7.4) lists ids that still show Visual Studio Light values.
+// audit lists ids that still show Visual Studio Light values.
 
 export interface Rule {
   match: string | RegExp;
   role: RoleName | ((id: string) => RoleName | undefined);
-  /** Alpha to start from when writing a translucent color (plan 6.11). */
+  /** Alpha to start from when writing a translucent color. */
   alpha?: number;
   /** Background the translucent color sits on (default: editor.bg). */
   over?: RoleName;

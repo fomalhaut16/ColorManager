@@ -23,7 +23,7 @@ export interface TranslucentResult {
 
 /**
  * Finds a translucent color S with alpha a such that S over `background`
- * looks like `target` (plan 6.11). Blending is done per channel on
+ * looks like `target`. Blending is done per channel on
  * gamma-encoded values, like browsers do.
  */
 export function solveTranslucent(

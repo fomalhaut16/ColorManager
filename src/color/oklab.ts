@@ -1,5 +1,4 @@
-// OKLab / OKLCH <-> sRGB conversions (Björn Ottosson's matrices, same values as
-// research/palette-prototype/ok.py).
+// OKLab / OKLCH <-> sRGB conversions (Björn Ottosson's matrices).
 
 export type Vec3 = [number, number, number];
 

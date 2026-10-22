@@ -3,7 +3,7 @@ import type { OwnershipRecord, StateStore } from './ownership';
 import { analyzeSettingsText, managedValuesAreObjects, type SettingsAnalysis } from './settingsFile';
 import { MANAGED_KEYS, THEME_KEY, type ManagedKey, type Payload } from './settingsKeys';
 
-// Safe writer for the "[Visual Studio Light]" sub-keys (plan section 9).
+// Safe writer for the "[Visual Studio Light]" sub-keys.
 // Every VSCode-facing operation goes through WriterDeps so the decision logic
 // can be unit tested with fakes.
 
@@ -102,7 +102,7 @@ export class SettingsWriter {
     return this.awaitingDecision || this.blockedUntilApplyNow;
   }
 
-  /** Reads and checks settings.json (plan 9.2 step 4). */
+  /** Reads and checks settings.json. */
   private async readChecked(): Promise<
     { ok: true; bytes: Uint8Array; analysis: SettingsAnalysis } | { ok: false; result: ApplyResult }
   > {
@@ -197,7 +197,7 @@ export class SettingsWriter {
       }
     }
 
-    // Plan 9.5 check 3: the file we back up must be the file VSCode writes.
+    // the file we back up must be the file VSCode writes.
     if (firstWrite) {
       const after = await d.file.read();
       const bg = asRecord(payload['workbench.colorCustomizations'])['editor.background'];
@@ -236,7 +236,7 @@ export class SettingsWriter {
     }
   }
 
-  /** Plan 9.6: Remove Customizations. */
+  /** Remove Customizations. */
   async remove(): Promise<ApplyResult> {
     const d = this.d;
     await d.setEnabled(false);

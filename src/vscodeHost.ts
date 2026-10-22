@@ -16,7 +16,7 @@ export const configIO: ConfigIO = {
 /**
  * The extension host always gets the default profile's storage, so two
  * levels above globalStorageUri is the default profile's settings.json
- * (plan 9.5). The writer cross-checks it against VSCode's values.
+ *. The writer cross-checks it against VSCode's values.
  */
 export function settingsUri(context: vscode.ExtensionContext): vscode.Uri {
   return vscode.Uri.joinPath(context.globalStorageUri, '..', '..', 'settings.json');
@@ -136,7 +136,7 @@ export function targetThemeActive(): boolean {
   });
 }
 
-/** Plan 9.8: offer once to keep the managed keys out of Settings Sync. */
+/** offer once to keep the managed keys out of Settings Sync. */
 export async function offerSyncIgnore(context: vscode.ExtensionContext): Promise<void> {
   const ASKED = 'colorManager.syncIgnoreAsked';
   if (context.globalState.get<boolean>(ASKED) || !vscode.window.state.focused) return;

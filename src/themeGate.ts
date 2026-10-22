@@ -17,7 +17,7 @@ export interface ThemeInputs {
   preferredDarkColorTheme: string | undefined;
 }
 
-/** Same order VSCode uses to pick the effective theme (plan 9.9). */
+/** Same order VSCode uses to pick the effective theme. */
 export function effectiveThemeId(t: ThemeInputs): string | undefined {
   const highContrast = t.kind === ThemeKind.HighContrast || t.kind === ThemeKind.HighContrastLight;
   if (t.autoDetectHighContrast && highContrast) return undefined;

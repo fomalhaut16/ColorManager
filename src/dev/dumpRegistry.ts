@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import { generateThemeDump } from './generateThemeDump';
 
-// Plan 7.2: dumps every registered workbench color id with its transparency
+// Dumps every registered workbench color id with its transparency
 // requirement and its value under plain Visual Studio Light. Run in an
 // isolated instance with the Visual Studio Light theme and no customizations.
 

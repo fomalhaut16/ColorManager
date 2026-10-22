@@ -8,13 +8,13 @@ import { buildSemanticRules } from './semantic';
 import { buildTextMateRules } from './textmate';
 import { WORKBENCH_RULES, type Rule } from './workbenchMap';
 
-/** Bump whenever the palette tables or mappings change (plan 10). */
+/** Bump whenever the palette tables or mappings change. */
 export const PAYLOAD_VERSION = 1;
 
 /** Below this lightness a translucent color is a plain overlay instead of a solved target. */
 const PALE_L = 0.8;
 
-/** Default background a translucent color sits on, by id prefix (plan 6.11). */
+/** Default background a translucent color sits on, by id prefix. */
 function defaultOver(id: string): RoleName {
   return /^(sideBar|list|tree)/.test(id) ? 'sideBar.bg' : 'editor.bg';
 }

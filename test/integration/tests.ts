@@ -5,7 +5,7 @@ import * as vscode from 'vscode';
 import type { TestApi } from '../../src/extension';
 import { MANAGED_KEYS, THEME_KEY } from '../../src/settingsKeys';
 
-// Integration tests for plan 12.2. They run against the real configuration
+// Integration tests. They run against the real configuration
 // service of an isolated VSCode instance.
 
 const ROOT = process.env.CM_ROOT!;

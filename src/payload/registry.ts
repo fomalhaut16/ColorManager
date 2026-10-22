@@ -9,7 +9,7 @@ export interface RegistryEntry {
   source: string;
 }
 
-/** Committed registry (plan 7.2): core colors plus colors contributed by installed extensions. */
+/** Committed registry: core colors plus colors contributed by installed extensions. */
 export const REGISTRY: Readonly<Record<string, RegistryEntry>> = {
   ...(extensions.colors as Record<string, RegistryEntry>),
   ...(core.colors as Record<string, RegistryEntry>),

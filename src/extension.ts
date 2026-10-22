@@ -60,7 +60,7 @@ export function activate(context: vscode.ExtensionContext): TestApi | undefined 
   let lastResult: ApplyResult | undefined;
   let lastHue: number | undefined;
 
-  // Hashes of every slot's payload under the current settings (plan 9.3, condition 4).
+  // Hashes of every slot's payload under the current settings.
   let slotHashCache: { fp: string; hashes: Record<ManagedKey, Set<string>> } | undefined;
   const slotHashes = (key: ManagedKey): ReadonlySet<string> => {
     const fp = fingerprint(config);
@@ -158,7 +158,7 @@ export function activate(context: vscode.ExtensionContext): TestApi | undefined 
       if (!testMode) scheduler.trigger(500);
     }),
     vscode.workspace.onDidChangeConfiguration((e) => {
-      // Our own writes touch the managed keys; never react to them (plan 10).
+      // Our own writes touch the managed keys; never react to them.
       const relevant = e.affectsConfiguration(SECTION) || THEME_SETTINGS.some((k) => e.affectsConfiguration(k));
       if (!relevant) return;
       config = readConfig();

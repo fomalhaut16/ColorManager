@@ -1,5 +1,5 @@
 // Extracts every tokenColors selector and semantic selector from the built-in
-// Visual Studio Light theme and assigns a ColorManager role (plan section 8).
+// Visual Studio Light theme and assigns a ColorManager role.
 // Usage: npm run extract-light-vs [-- "/path/to/Visual Studio Code.app"]
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
